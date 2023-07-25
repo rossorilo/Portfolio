@@ -12,21 +12,21 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "default", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "air" # "dirt", "aqua", "contrast", "dark", "default", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Ross Fischer"
+title                    : "Ross Fischer ePortfolio"
 title_separator          : "-"
-subtitle                 : ePortfolio
+subtitle                 : "Projects, Courses, & More"
 name                     : "Ross Fischer"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+description              : "Site built with Jekyll Theme and Ruby, deployed from Github Repo and hosted using Github Pages. Served from custom personal domain. Site content includes personal coursework including homework and labs, certifications, degrees conferred, personal projects, work experience, etc."
+url                      : "https://ross.thefischers.me"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "github.com/rossorilo/Portfolio"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+repository               : "rossorilo/rossorilo.github.io"
+teaser                   : "/assets/images/500x332.png"
 logo                     : "/assets/images/rf-logo88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+masthead_title           : "My ePortfolio"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -116,12 +116,6 @@ author:
     - label: "Website"
       icon: "/assets/images/rf-logo88x88.png"
       # url: "https://your-website.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/rossorilo"
@@ -132,17 +126,9 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url:
+
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
-    - label: "GitLab"
-      icon: "fab fa-fw fa-gitlab"
-      # url:
-    - label: "Bitbucket"
-      icon: "fab fa-fw fa-bitbucket"
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
