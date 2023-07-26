@@ -21,7 +21,7 @@ title_separator          : "-"
 subtitle                 : "Projects, Courses, & More"
 name                     : "Ross Fischer"
 description              : "Site built with Jekyll Theme and Ruby, deployed from Github Repo and hosted using Github Pages. Served from custom personal domain. Site content includes personal coursework including homework and labs, certifications, degrees conferred, personal projects, work experience, etc."
-url                      : "https://ross.thefischers.me"
+url                      : # "https://ross.thefischers.me"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "rossorilo/rossorilo.github.io"
 teaser                   : "/assets/images/500x332.png"
@@ -273,8 +273,3 @@ defaults:
       comments: # true
       share: # true
       related: # true
-
-collections:
-  projects:
-    output: true
-    permalink
