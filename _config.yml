@@ -275,5 +275,9 @@ defaults:
       related: # true
 
 collections:
-  - projects
-  - courses
+  projects:
+    output: true
+    permalink: /:collection/:path/
+  courses:
+    output: true
+    permalink: /:collection/:path/
