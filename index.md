@@ -9,8 +9,8 @@ header:
 
 excerpt: |-
   • Colorado-based Mechanical Engineer.<br>
-  • RPCV from Peace Corps Tanzania.n Swahili Speaker.<br>
-  • Recent R&D Engineer advancing the development of novel aviation engine.<br>
+  • RPCV from Peace Corps Tanzania. Swahili Speaker.<br>
+  • Recent R&D Engineer advancing development of novel aviation engine.<br>
   
 feature_row:
   - title: "Professional Experiences"
