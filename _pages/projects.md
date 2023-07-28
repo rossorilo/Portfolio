@@ -4,15 +4,15 @@ layout: splash
 permalink: /projects/
 date: 2016-03-23T11:48:41-04:00
 header:
-  #overlay_color: "#000"
-  #overlay_filter: "0.5"
-  overlay_image: /assets/images/camperframe.jpg
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/project_camper_frame.jpg
   # actions:
   #  - label: "Go To"
   #    url: "https://github.com/mmistakes/minimal-mistakes/"
 # excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger corned beef short ribs kielbasa biltong t-bone drumstick tri-tip tail sirloin pork chop."
 intro: 
-  - excerpt: 'Here are some miscellaneous academic, personal, or part-time projects from over the years.'
+  - excerpt: 'Some miscellaneous academic, personal, or part-time projects from over the years.'
 feature_row:
   - image_path: assets/images/unsplash-gallery-image-1-th.jpg
     alt: "placeholder image 1"
