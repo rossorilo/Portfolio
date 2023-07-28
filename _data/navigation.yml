@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "Home & Contact"
-    url: https://rossorilo.github.io/
+    url: /
   - title: "Professional Experiences"
     url: /About/
   - title: "Projects"
