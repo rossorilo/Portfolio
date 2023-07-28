@@ -15,13 +15,6 @@ excerpt: |-
   Skills in data acquisition, analysis, & presentation. Interest in Remote Sensing Applications.<br>
   
 feature_row:
-  - title: "Resume & Contact"
-    image_path: /assets/images/contact_resume4x3.png
-    alt: "/resume/"
-    excerpt: "Contact page, with resume & other docs."
-    url: "/contact/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"
   - title: "Professional Experiences"
     image_path: /assets/images/portfolio_iarc_poster4x3.jpg
     alt: "test cell"
