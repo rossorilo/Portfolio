@@ -1,7 +1,7 @@
 # main links
 main:
   - title: "Resume & Contact"
-    url: /contact
+    url: /contact/
   - title: "Professional Experiences"
     url: /portfolio/
   - title: "Projects"
