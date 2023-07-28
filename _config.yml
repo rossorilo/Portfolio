@@ -107,15 +107,11 @@ author:
   name             : "Ross Fischer "
   avatar           : "/assets/images/headshot.png"
   bio              : |-
-    B.S. Mechanical Engineering.
-    Data Specialist.
-    Diligent and Adaptable.
+    B.S. Mechanical Engineering.<br>
+    Data Specialist.<br>
+    Diligent and Adaptable.<br>
   location         : "Colorado"
-  email            : "ross@thefischers.me"
   links:
-    - label: "Email"
-      icon: "fas fa-fw fa-envelope-square"
-      # url: "mailto:ross@thefischers.me"
     - label: "Website"
       icon: "/assets/images/rf-logo88x88.png"
       # url: "https://your-website.com"
