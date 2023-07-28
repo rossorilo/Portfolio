@@ -5,20 +5,17 @@ hidden: true
 header:
   overlay_color: "#d9bca9"
   overlay_image: /assets/images/Mountains_royalty_free_matthew_montrone.jpg
-  # actions:
-  #   - label: "<i class='fas fa-download'></i> Install now"
-  #     url: "/docs/quick-start-guide/"
+
 excerpt: >-
   Colorado-based Mechanical Engineer with experience in data acquisition,  analysis, and presentation. Project management experience implementing USAID grants in the Peace Corps.\n
   Worked in environmental research and most recently as an R&D Engineer advancing the development of a new v-twin aviation engine.  
-  # <br />
-  # <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.24.0">Latest release v4.24.0</a></small>
+  
 feature_row:
   - image_path: /assets/images/mm-customizable-feature.png
     alt: "customizable"
     title: "Super customizable"
     excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
-    url: "/docs/configuration/"
+    url: "/projects/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
   - image_path: /assets/images/mm-responsive-feature.png
