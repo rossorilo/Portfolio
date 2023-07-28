@@ -20,4 +20,4 @@ excerpt: "Page Updated 7/28/2023"
 |      "                                      | [Syntax Highlighting Post][syntax-post] | Post displaying highlighted code. |
 |      "                                      | [Post with a Gallery][gallery-post] | A post showing several images wrapped in `<figure>` elements. |
 
-[1]:{{rossorilo.github.io}}/assets/downloads/CV_Ross_Fischer.pdf
+[1]:{{ site.url }}/assets/downloads/CV_Ross_Fischer.pdf
