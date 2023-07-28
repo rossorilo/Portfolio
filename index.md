@@ -8,11 +8,9 @@ header:
   overlay_image: /assets/images/Mountains_royalty_free_matthew_montrone.jpg
 
 excerpt: |-
-  Colorado-based Mechanical Engineer.<br>
-  Recent R&D Engineer advancing the development of a new V-twin aviation engine.<br>
-  Former undergraduate researcher in environmental sciences.<br>
-  Project management experience implementing USAID grants in the Peace Corps.<br>
-  Skills in data acquisition, analysis, & presentation. Interest in Remote Sensing Applications.<br>
+  • Colorado-based Mechanical Engineer.<br>
+  • RPCV from Peace Corps Tanzania.n Swahili Speaker.<br>
+  • Recent R&D Engineer advancing the development of novel aviation engine.<br>
   
 feature_row:
   - title: "Professional Experiences"
