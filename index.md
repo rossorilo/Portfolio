@@ -16,7 +16,7 @@ feature_row:
   - title: "Professional Experiences"
     image_path: /assets/images/portfolio_iarc_poster4x3.jpg
     alt: "test cell"
-    excerpt: "Expands on professional experiences."
+    excerpt: "Portfolio of professional experiences."
     url: "/portfolio/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
