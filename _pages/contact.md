@@ -3,9 +3,10 @@ layout: single
 permalink: /contact/
 title: "Resume & Contact"
 excerpt: "Page Updated 7/28/2023"
-
-
+author_profile: true
 ---
+
+****
 
 {% include contact-form.html %}
 
