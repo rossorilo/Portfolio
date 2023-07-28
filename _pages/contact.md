@@ -19,3 +19,5 @@ excerpt: "Page Updated 7/28/2023"
 |Writing Example                              | [HTML Tags and Formatting Post][html-tags-post] | A variety of common markup showing how the theme styles them. |
 |      "                                      | [Syntax Highlighting Post][syntax-post] | Post displaying highlighted code. |
 |      "                                      | [Post with a Gallery][gallery-post] | A post showing several images wrapped in `<figure>` elements. |
+
+[1]:{{rossorilo.github.io}}/assets/downloads/CV_Ross_Fischer.pdf
