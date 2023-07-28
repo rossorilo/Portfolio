@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "air" # "dirt", "aqua", "contrast", "dark", "default"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "ePortfolio"
+title                    : "Ross Fischer | ePortfolio"
 title_separator          : "-"
 subtitle                 : "Projects, Courses, & More"
 name                     : "Ross Fischer"
@@ -26,7 +26,7 @@ baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "rossorilo/rossorilo.github.io"
 teaser                   : "/assets/images/500x332.png"
 logo                     : "/assets/images/rf-logo88x88.png"
-masthead_title           : "My ePortfolio"
+masthead_title           : "Ross Fischer"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
