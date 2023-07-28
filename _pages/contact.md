@@ -10,7 +10,8 @@ author_profile: true
 
 {% include contact-form.html %}
 
-## Resume updated 7/28/2023. [Download][1]
+## Resume updated 7/28/2023. 
+## [Download][1]
 <object data="{{/assets/downloads/CV_Ross_Fischer.pdf}}" width="1000" height="1000" type='application/pdf'></object>
 
 ## Additional Certifications, Forms, Etc.
@@ -22,4 +23,4 @@ author_profile: true
 |      "                                      | [Syntax Highlighting Post][syntax-post] | Post displaying highlighted code. |
 |      "                                      | [Post with a Gallery][gallery-post] | A post showing several images wrapped in `<figure>` elements. |
 
-[1]:{{/assets/downloads/}}CV_Ross_Fischer.pdf
+[1]: /assets/downloads/CV_Ross_Fischer.pdf
