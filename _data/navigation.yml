@@ -1,10 +1,10 @@
 # main links
 main:
-  - title: "Home"
+  - title: "Home & Contact    |"
     url: https://rossorilo.github.io/
-  - title: "About"
+  - title: "Professional Experiences    |"
     url: /About/
-  - title: "Projects"
+  - title: "Projects    |"
     url: /projects/
   - title: "Coursework"
     url: /coursework/
