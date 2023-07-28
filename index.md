@@ -4,7 +4,7 @@ permalink: /
 hidden: true
 header:
   overlay_color: "#000"
-  overlay_filter: "0.5"
+  overlay_filter: "0.6"
   overlay_image: /assets/images/Mountains_royalty_free_matthew_montrone.jpg
 
 excerpt: |-
@@ -15,30 +15,30 @@ excerpt: |-
   Skills in data acquisition, analysis, & presentation. Interest in Remote Sensing Applications.
   
 feature_row:
-  - image_path: /assets/images/contact_resume.png
+  - title: "Resume & Contact"
+    image_path: /assets/images/contact_resume4x3.png
     alt: "/resume/"
-    title: "Resume & Contact"
     excerpt: "Contact Me. View my resume and other documents."
     url: "/contact/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/portfolio_testcelloperation.jpg
+  - title: "Professional Experiences"
+    image_path: /assets/images/portfolio_iarc_poster4x3.jpg
     alt: "test cell"
-    title: "Professional Experiences"
     excerpt: "Expands on my professional experiences."
     url: "/portfolio/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/project_cnc_router.jpg
+  - title: "Projects"
+    image_path: /assets/images/project_cnc_router4x3.jpg
     alt: "CNC router"
-    title: "Projects"
     excerpt: "A collection of personal and academic projects."
     url: "/projects/"
     btn_class: "btn--primary"
     btn_label: "Learn more"   
-  - image_path: /assets/images/course_senior_project.jpg
+  - title: "Coursework"
+    image_path: /assets/images/course_kokopelli4x3.jpg
     alt: "team"
-    title: "Coursework"
     excerpt: "See my coursework archive."
     url: "/coursework/"
     btn_class: "btn--primary"
