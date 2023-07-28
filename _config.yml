@@ -106,7 +106,10 @@ analytics:
 author:
   name             : "Ross Fischer "
   avatar           : "/assets/images/headshot.png"
-  bio              : "Data Specialist interested in Remote Sensing Applications"
+  bio              : |+
+    "B.S. Mechanical Engineering.
+    Data Specialist.
+    Adaptable and Curious."
   location         : "Colorado"
   email            : "ross@thefischers.me"
   links:
