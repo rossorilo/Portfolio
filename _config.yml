@@ -106,10 +106,10 @@ analytics:
 author:
   name             : "Ross Fischer "
   avatar           : "/assets/images/headshot.png"
-  bio              : |+
-    "B.S. Mechanical Engineering.
+  bio              : |-
+    B.S. Mechanical Engineering.
     Data Specialist.
-    Adaptable and Curious."
+    Diligent and Adaptable.
   location         : "Colorado"
   email            : "ross@thefischers.me"
   links:
