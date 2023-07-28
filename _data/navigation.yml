@@ -1,9 +1,9 @@
 # main links
 main:
-  - title: "Home & Contact"
-    url: /
+  - title: "Resume & Contact"
+    url: /contact
   - title: "Professional Experiences"
-    url: /About/
+    url: /portfolio/
   - title: "Projects"
     url: /projects/
   - title: "Coursework"
