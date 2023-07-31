@@ -8,9 +8,9 @@ header:
   overlay_image: /assets/images/Mountains_royalty_free_matthew_montrone.jpg
 
 excerpt: |-
-  • Colorado-based Mechanical Engineer.<br>
-  • RPCV from Peace Corps Tanzania. Swahili Speaker.<br>
+  • Mechanical Engineer & Data Specialist.<br>
   • Recent R&D Engineer advancing development of novel aviation engine.<br>
+  • RPCV from Peace Corps Tanzania. Swahili Speaker.
   
 feature_row:
   - title: "Professional Experiences"
