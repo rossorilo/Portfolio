@@ -18,4 +18,5 @@ excerpt: "Miscellaneous assignments from a selection of courses."
 entries_layout: grid
 ---
 
-Sample document listing for the collection `_recipes`.
+Landing page for coursework.
+Create custom sidebar.
