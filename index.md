@@ -8,6 +8,7 @@ header:
   overlay_image: /assets/images/Mountains_royalty_free_matthew_montrone.jpg
 
 excerpt: |-
+  • [GitHub Repository](https://github.com/rossorilo/rossorilo.github.io)
   • Mechanical Engineer & Data Specialist.<br>
   • Recent R&D Engineer advancing development of novel aviation engine.<br>
   • RPCV from Peace Corps Tanzania. Swahili Speaker.
