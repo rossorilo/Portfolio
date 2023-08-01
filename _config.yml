@@ -286,34 +286,17 @@ collections:
 
 # Defaults
 defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      share: true
-      related: true
-  # _pages
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      author_profile: true
   # _courses
   - scope:
-      path: ""
-      type: recipes
+      path: "/coursework/"
+      type: courses
     values:
       layout: single
       author_profile: true
       share: true
   # _projects
   - scope:
-      path: ""
+      path: "/projects/"
       type: projects
     values:
       layout: single
@@ -321,7 +304,7 @@ defaults:
       share: true
   # _portfolio
   - scope:
-      path: ""
+      path: "/portfolio/"
       type: portfolio
     values:
       layout: single
