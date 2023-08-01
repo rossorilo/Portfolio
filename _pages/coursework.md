@@ -9,7 +9,7 @@ toc_label: Coursework Contents
 toc_sticky: true
 header:
   overlay_color: "#000"
-  overlay_filter: "0.5"
+  overlay_filter: "0.65"
   overlay_image: /assets/images/course_kokopelli.jpg
   actions:
     - label: "Download Transcripts"
