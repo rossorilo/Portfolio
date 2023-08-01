@@ -4,6 +4,7 @@ layout: collection
 collection: courses
 permalink: /coursework/
 author_profile: true
+author_profile_sticky: false
 toc: true
 toc_label: Coursework Contents
 toc_sticky: true
