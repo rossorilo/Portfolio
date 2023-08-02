@@ -21,7 +21,7 @@ author_profile: true
 
 | Name                                                    |          Date    | Link                                           |
 | ------------------------------------------------------- | ---------------- | ----------------------------------------------------- |
-| Certification: SQL Essential Training                   | Apr, 2023        | (Download)[https://www.rossorilo.github.io/assets/downloads/SQL-Essential-Training-LinkedIn-Learning.pdf] |
+| Certification: SQL Essential Training                   | Apr, 2023        | (Download)[https://www.ross.thefischers.me/assets/downloads/SQL-Essential-Training-LinkedIn-Learning.pdf] |
 | Description of Service: Peace Corps                     | Mar, 2020        | (Download)[https://www.rossorilo.github.io/assets/downloads/Peace-Corps-Description-of-Service.pdf] |
 | Writing Ex.: USAID Grant for hand-pump installation     | Feb, 2019        | (Download)[https://www.rossorilo.github.io/assets/downloads/Peace-Corps-Grant-Waterpump.pdf] |
 | Diploma: B.S. in Mech. Engineering (Uni. of Colorado)   | May, 2018        | (Download)[https://www.rossorilo.github.io/assets/downloads/Diploma-1877-4834-R5R2.pdf] |
