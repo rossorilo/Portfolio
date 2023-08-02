@@ -3,7 +3,7 @@ title: "MCEN 4043 - System Dynamics"
 layout: single
 excerpt: "The design and modeling of dynamic systems using mathematical tools."
 header:
-  image: /_courses/assets/mcen_4043_image.png
+  image: /assets/images/mcen_4043_image.png
 ---
 
 Course Objectives 
@@ -20,23 +20,23 @@ components that make up a complete machine.
 
 See course archive here: [Google Drive Link](https://drive.google.com/drive/folders/0Bx-cli2KeHSBRVBRTkwyaEpIcUE?resourcekey=0-hgoplL_Okyl9peVD6Hvakw&usp=drive_link)
 
-# [Syllabus](/_courses/assets/MCEN_4043_Syllabus.pdf):
-<object data="/_courses/assets/MCEN_4043_Syllabus.pdf" type="application/pdf" width="700px" height="1000px">
-    <embed src="/_courses/assets/MCEN_4043_Syllabus.pdf">
+# [Syllabus](/assets/pdfs/MCEN_4043_Syllabus.pdf):
+<object data="/assets/pdfs/MCEN_4043_Syllabus.pdf" type="application/pdf" width="700px" height="1000px">
+    <embed src="/assets/pdfs/MCEN_4043_Syllabus.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it.</p>
     </embed>
 </object>
 
-# [Homework Example, Week 9](/_courses/assets/MCEN_4043_hw9.pdf):
-<object data="/_courses/assets/MCEN_4043_hw9.pdf" type="application/pdf" width="700px" height="1000px">
-    <embed src="/_courses/assets/MCEN_4043_hw9.pdf">
+# [Homework Example, Week 9](/assets/pdfs/MCEN_4043_hw9.pdf):
+<object data="/assets/pdfs/MCEN_4043_hw9.pdf" type="application/pdf" width="700px" height="1000px">
+    <embed src="/assets/pdfs/MCEN_4043_hw9.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it.</p>
     </embed>
 </object>
 
-# [Lab Example, Week 9](/_courses/assets/MCEN_4043_lab9.pdf):
-<object data="/_courses/assets/MCEN_4043_lab9.pdf" type="application/pdf" width="700px" height="1000px">
-    <embed src="/_courses/assets/MCEN_4043_lab9.pdf">
+# [Lab Example, Week 9](/assets/pdfs/MCEN_4043_lab9.pdf):
+<object data="/assets/pdfs/MCEN_4043_lab9.pdf" type="application/pdf" width="700px" height="1000px">
+    <embed src="/assets/pdfs/MCEN_4043_lab9.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it.</p>
     </embed>
 </object>
