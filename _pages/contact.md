@@ -10,9 +10,9 @@ author_profile: true
 
 {% include contact-form.html %}
 
-## Resume updated 7/28/2023.  [(View Resume)](https://drive.google.com/file/d/11Z2pVD9qDoj6I8fSNcER-WGuScgtMLos/view?usp=sharing)
-<object data="https://drive.google.com/file/d/11Z2pVD9qDoj6I8fSNcER-WGuScgtMLos/view?usp=sharing" type="application/pdf" width="700px" height="1000px">
-    <embed src="https://drive.google.com/file/d/11Z2pVD9qDoj6I8fSNcER-WGuScgtMLos/view?usp=sharing">
+## Resume updated 7/28/2023.  [(View Resume)](https://ross.thefischers.me/assets/downloads/CV_Ross_Fischer.pdf)
+<object data="https://ross.thefischers.me/assets/downloads/CV_Ross_Fischer.pdf" type="application/pdf" width="700px" height="1000px">
+    <embed src="https://ross.thefischers.me/assets/downloads/CV_Ross_Fischer.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it.</p>
     </embed>
 </object>
