@@ -10,9 +10,9 @@ author_profile: true
 
 {% include contact-form.html %}
 
-## Resume updated 7/28/2023.  [(View/Download)](https://ross.thefischers.me/assets/downloads/CV_Ross_Fischer.pdf)
-<object data="/assets/downloads/CV_Ross_Fischer.pdf" type="application/pdf" width="700px" height="1000px">
-    <embed src="/assets/downloads/CV_Ross_Fischer.pdf">
+## Resume updated 7/28/2023.  [(View/Download)](https://drive.google.com/file/d/11Z2pVD9qDoj6I8fSNcER-WGuScgtMLos/view?usp=sharing)
+<object data="https://drive.google.com/file/d/11Z2pVD9qDoj6I8fSNcER-WGuScgtMLos/view?usp=sharing" type="application/pdf" width="700px" height="1000px">
+    <embed src="https://drive.google.com/file/d/11Z2pVD9qDoj6I8fSNcER-WGuScgtMLos/view?usp=sharing">
         <p>This browser does not support PDFs. Please download the PDF to view it.</p>
     </embed>
 </object>
@@ -21,9 +21,9 @@ author_profile: true
 
 | Name                                                    |          Date    | Link                                           |
 | ------------------------------------------------------- | ---------------- | ----------------------------------------------------- |
-| Certification: SQL Essential Training                   | Apr, 2023        | [Download/Open](https://www.ross.thefischers.me/assets/downloads/SQL-Essential-Training-LinkedIn-Learning.pdf) |
-| Description of Service: Peace Corps                     | Mar, 2020        | [Download/Open](https://www.ross.thefischers.me/assets/downloads/Peace-Corps-Description-of-Service.pdf) |
-| Writing Ex.: USAID Grant for hand-pump installation     | Feb, 2019        | [Download/Open](https://www.ross.thefischers.me/assets/downloads/Peace-Corps-Grant-Waterpump.pdf) |
-| Diploma: B.S. in Mech. Engineering (Uni. of Colorado)   | May, 2018        | [Download/Open](https://www.ross.thefischers.me/assets/downloads/Diploma-1877-4834-R5R2.pdf) |
-| Transcripts: Uni. Colorado & Colorado Mesa Uni.         | May, 2018        | [Download/Open](https://www.ross.thefischers.me/assets/downloads/2018-Final-CU-CMU-Merged.pdf) |
-| Writing Ex.: Intl. Arctic Research Center Publication   | Dec, 2017        | [Download/Open](https://www.ross.thefischers.me/assets/downloads/Fischer-Walsh-et-al.pdf) |
+| Certification: SQL Essential Training                   | Apr, 2023        | [Download/Open](https://drive.google.com/file/d/15LqEmV9uV0N6gBASMcIoafuzN2-kebXO/view?usp=sharing) |
+| Description of Service: Peace Corps                     | Mar, 2020        | [Download/Open](https://drive.google.com/file/d/11ZaPUrnf7VN79G4dkq5_TDpeymEEPY3-/view?usp=sharing) |
+| Writing Ex.: USAID Grant for hand-pump installation     | Feb, 2019        | [Download/Open](https://drive.google.com/file/d/1h0CrHkQrbIzCY4GLJJV2nh-DOYJKQarl/view?usp=sharing) |
+| Diploma: B.S. in Mech. Engineering (Uni. of Colorado)   | May, 2018        | [Download/Open](https://drive.google.com/file/d/1oBv4kTNlm8Fmbb_z-_oYpcUKwIrj2gZd/view?usp=sharing) |
+| Transcripts: Uni. Colorado & Colorado Mesa Uni.         | May, 2018        | [Download/Open](https://drive.google.com/file/d/1LupGH6OphaqLxqiRr65Nd5BwfJFHbbCY/view?usp=sharing) |
+| Writing Ex.: Intl. Arctic Research Center Publication   | Dec, 2017        | [Download/Open](https://drive.google.com/file/d/1DvXGOnyaiveR1j7bK40JCILnoW2wncAt/view?usp=sharing) |
