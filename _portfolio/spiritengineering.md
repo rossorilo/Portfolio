@@ -10,14 +10,12 @@ sidebar:
     image_alt: "logo"
     text: "R&D Engineer, Data Specialist"
   - title: "Responsibilities"
-    text: |-
-    "Test Cell Operation<br>
+    text: "Test Cell Operation<br>
     Test Engineering on Parts & Systems<br>
     Engineering Drawing Review<br>
     Inspection & Quality Assurance<br>
     Vendor Communication<br>
-    ...
-    "
+    ..."
     
 gallery:
   - image_path: assets/images/course_design_inertias.png
