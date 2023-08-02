@@ -10,20 +10,20 @@ author_profile: true
 
 {% include contact-form.html %}
 
-## Resume updated 7/28/2023.  ([View/Download][1])
+## Resume updated 7/28/2023.  ([View/Download][/assets/downloads/CV_Ross_Fischer.pdf])
 <object data="/assets/downloads/CV_Ross_Fischer.pdf" type="application/pdf" width="700px" height="1000px">
     <embed src="/assets/downloads/CV_Ross_Fischer.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it.</p>
     </embed>
 </object>
 
-## Additional Certifications, Forms, Etc.
+## Additional Docs.
 
-| Type                                        | Download                                        | Description                                           |
-| ------------------------------------------- | ----------------------------------------------- | ----------------------------------------------------- |
-|Certification                                | [Post with Header Image][header-image-post]     | A post with a large header image. |
-|Writing Example                              | [HTML Tags and Formatting Post][html-tags-post] | A variety of common markup showing how the theme styles them. |
-|      "                                      | [Syntax Highlighting Post][syntax-post]         | Post displaying highlighted code. |
-|      "                                      | [Post with a Gallery][gallery-post]             | A post showing several images wrapped in `<figure>` elements. |
-
-[1]: /assets/downloads/CV_Ross_Fischer.pdf
+| Name                                                    |          Date    | Link                                           |
+| ------------------------------------------------------- | ---------------- | ----------------------------------------------------- |
+| Certification: SQL Essential Training                   | Apr, 2023        | (Download)[assets/downloads/SQL-Essential-Training-LinkedIn-Learning.pdf] |
+| Description of Service: Peace Corps                     | Mar, 2020        | (Download)[assets/downloads/Peace-Corps-Description-of-Service.pdf] |
+| Writing Ex.: USAID Grant for hand-pump installation     | Feb, 2019        | (Download)[assets/downloads/Peace-Corps-Grant-Waterpump.pdf] |
+| Diploma: B.S. in Mech. Engineering (Uni. of Colorado)   | May, 2018        | (Download)[assets/downloads/Diploma-1877-4834-R5R2.pdf] |
+| Transcripts: Uni. Colorado & Colorado Mesa Uni.         | May, 2018        | (Download)[assets/downloads/2018 Final CU and CMU Merged.pdf] |
+| Writing Ex.: Intl. Arctic Research Center Publication   | Dec, 2017        | (Download)[assets/downloads/Fischer-Walsh-et-al.pdf] |
