@@ -110,11 +110,11 @@ author:
     • B.S. Mechanical Engineering<br>
     • Data Specialist<br>
     • Diligent and Adaptable<br>
-  location         : "Colorado"
+# location         : "Colorado"
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin-square"
-      URL: "https://www.linkedin.com/in/ross-fischer/"
+      url: "https://www.linkedin.com/in/ross-fischer/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/rossorilo"
