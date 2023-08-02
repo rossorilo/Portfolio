@@ -112,15 +112,16 @@ author:
     • Diligent and Adaptable<br>
   location         : "Colorado"
   links:
-    - label: "Website"
-      icon: "/assets/images/rf-logo88x88.png"
-      # url: "https://your-website.com"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      URL: "https://www.linkedin.com/in/ross-fischer/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/rossorilo"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/rossorilo/"
+      
 
 # Site Footer
 footer:
