@@ -32,6 +32,4 @@ Peace Corps Tanzania is a...
 
 background, project, my contributions
 
-# {% include gallery caption="This is a sample gallery to go along with this case study." %}
-
 My contribution focused on ...
