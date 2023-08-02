@@ -14,7 +14,7 @@ header:
   overlay_image: /assets/images/course_kokopelli.jpg
   actions:
     - label: "Download Transcripts"
-      url: "/assets/downloads/2018-Final-CU-CMU-Merged.pdf"
+      url: "https://drive.google.com/file/d/1LupGH6OphaqLxqiRr65Nd5BwfJFHbbCY/view?usp=drive_link"
 excerpt: "Miscellaneous assignments from a selection of courses."
 entries_layout: grid
 ---
