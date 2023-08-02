@@ -27,7 +27,7 @@ repository               : "rossorilo/rossorilo.github.io"
 teaser                   : "/assets/images/500x332.png"
 logo                     : "/assets/images/rf-logo88x88.png"
 masthead_title           : "Ross Fischer"
-# breadcrumbs            : false # true, false (default)
+breadcrumbs               : true
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "giscus", "custom"
