@@ -3,10 +3,11 @@ title: "MCEN 4043 - System Dynamics"
 layout: single
 excerpt: "The design and modeling of dynamic systems using mathematical tools."
 header:
-  image: /assets/images/mcen_4043_image.png
+  teaser: /assets/images/mcen_4043_image.png
 ---
 
-Course Objectives 
+## Course Objectives 
+
 This class will allow students to define a system and a dynamic system. Students will be able to 
 identify the input and output of a system, as well as the appropriate units used for mechanical, 
 fluid, thermal, and electrical systems. The class will include developing and applying modeling 
