@@ -17,6 +17,7 @@ source "https://rubygems.org"
 gem "jekyll"
 gem 'jekyll-include-cache'
 gem "minimal-mistakes-jekyll"
+gem 'jekyll-archives'
 
 # The following plugins are automatically loaded by the theme-gem:
 #   gem "jekyll-paginate"
