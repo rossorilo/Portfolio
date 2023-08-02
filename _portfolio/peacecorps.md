@@ -11,8 +11,7 @@ sidebar:
     image_alt: "logo"
     text: "R&D Engineer, Data Specialist"
   - title: "Responsibilities"
-    text: 
-    "Community Integration<br>
+    text: "Community Integration<br>
     Grant Writing & Implementation<br>
     Project Management<br>
     Science Education<br>
