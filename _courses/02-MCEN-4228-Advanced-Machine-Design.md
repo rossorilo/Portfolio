@@ -3,7 +3,7 @@ title: "MCEN 4228 - Advanced Machine Design"
 layout: single
 excerpt: "The design of complete machines and the resulting interactions between individual components."
 header:
-  image: /assets/images/mcen_4228_image2.png
+  teaser: /assets/images/mcen_4228_image2.png
 ---
 
 # Course Description 
