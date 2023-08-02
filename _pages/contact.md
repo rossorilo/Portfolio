@@ -18,7 +18,6 @@ author_profile: true
 </object>
 
 ## Additional Docs.
-<a id="raw-url" href="https://raw.githubusercontent.com/github-username/project/master/filename">Download FILE</a>
 
 | Name                                                    |          Date    | Link                                           |
 | ------------------------------------------------------- | ---------------- | ----------------------------------------------------- |
