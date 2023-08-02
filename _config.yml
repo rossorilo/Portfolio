@@ -113,7 +113,7 @@ author:
 # location         : "Colorado"
   links:
     - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin-square"
+      icon: "fab fa-fw fa-linkedin-in"
       url: "https://www.linkedin.com/in/ross-fischer/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
