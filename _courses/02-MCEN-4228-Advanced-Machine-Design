@@ -1,8 +1,34 @@
 ---
-title: MCEN 4228 - Advanced Machine Design
+title: "MCEN 4228 - Advanced Machine Design"
+layout: single
+excerpt: "The design of complete machines and the resulting interactions between individual components."
+header:
+  image: /_courses/assets/mcen_4228_image.png
 ---
 
-https://drive.google.com/drive/folders/0Bx-cli2KeHSBMWZsajVza1JSelE?resourcekey=0-xJQRUMGXyth_-u1HnKyMrA&usp=drive_link
+The focus of this course was on the design of complete machines and the resulting interactions between individual
+components that make up a complete machine.
 
-#Test Page
-Test Content
+See my entire coursework archive here: [Google Drive Link](https://drive.google.com/drive/folders/0Bx-cli2KeHSBMWZsajVza1JSelE?resourcekey=0-xJQRUMGXyth_-u1HnKyMrA&usp=drive_link)
+
+# [Syllabus](/_courses/assets/MCEN_4228_Syllabus.pdf):
+<object data="/_courses/assets/MCEN_4228_Syllabus.pdf" type="application/pdf" width="700px" height="1000px">
+    <embed src="/_courses/assets/MCEN_4228_Syllabus.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it.</p>
+    </embed>
+</object>
+
+# [Homework Example, Week 9](/_courses/assets/MCEN_4228_hw_9.pdf):
+<object data="/_courses/assets/MCEN_4228_hw_9.pdf" type="application/pdf" width="700px" height="1000px">
+    <embed src="/_courses/assets/MCEN_4228_hw_9.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it.</p>
+    </embed>
+</object>
+
+# [Notes Example, Week 9](/_courses/assets/MCEN_4228_slides_week9.pdf):
+<object data="/_courses/assets/MCEN_4228_slides_week9.pdf" type="application/pdf" width="700px" height="1000px">
+    <embed src="/_courses/assets/MCEN_4228_slides_week9.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it.</p>
+    </embed>
+</object>
+
