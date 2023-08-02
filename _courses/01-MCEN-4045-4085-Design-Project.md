@@ -1,16 +1,10 @@
 ---
 title: "MCEN 4045 & MCEN 4085 - Design Project I & II"
+layout: single
 excerpt: "A two-semester comprehensive capstone design experience carried out by a team of three."
 header:
   image: /assets/images/course_design_output.png
   teaser: /assets/images/course_engine_crank.jpg
-#sidebar:
- # - title: "Role"
- #   image: http://placehold.it/350x250
- #   image_alt: "logo"
- #   text: "Designer, Front-End Developer"
- # - title: "Responsibilities"
- #   text: "Coord"
 gallery:
   - image_path: assets/images/course_design_inertias.png
     alt: "Torsional Vibration Model"
