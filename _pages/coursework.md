@@ -1,7 +1,7 @@
 ---
 title: "Coursework"
 layout: collection
-collection: courses
+collection: coursework
 permalink: /coursework/
 author_profile: true
 author_profile_sticky: false
