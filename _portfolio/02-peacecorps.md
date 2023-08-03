@@ -69,8 +69,10 @@ From [Huru International](https://www.huruinternational.org/):
 
 > Every month, girls across Africa are forced to miss school because they lack access to safe, sustainable menstrual products and experience the shame and embarrassment associated with menstruation. Too often, girls fall behind in school and ultimately drop out.
 
-I applied with the help of Madam Batuli, see the application here: [Link](https://docs.google.com/document/d/1sIj5cmGqJ5ndx5tQnPi7vkGtRnEfxDXX/edit?usp=sharing&ouid=101522129468829840944&rtpof=true&sd=true
+I applied with the help of Madam Batuli, see the application here: [Link](https://docs.google.com/document/d/1sIj5cmGqJ5ndx5tQnPi7vkGtRnEfxDXX/edit?usp=sharing&ouid=101522129468829840944&rtpof=true&sd=true)
+
 {% include feature_row id="row2" type="center" %}
+
 Together, we distributed surveys, attended HURU trainings, shared menstrual and sex education with students, and organized transport and distribution of menstrual pad kits to every female student at Namajani Day Secondary School.
 
 # Science Education
