@@ -30,7 +30,7 @@ My contribution focused on the construction of an accurate torsional vibration m
 Our team successfully delivered a prediction of potential amplitude reduction if a 4th-order RPVA was utilized in the engine.
 
 
-Since, the successful implementation of an RPVA requires time- and cost-intensive implementation, the client ultimately pursued the [development of a brand-new V-twin aviation engine](/portfolio/spiritengineering)
+Since, the successful implementation of an RPVA requires time- and cost-intensive implementation, the client ultimately pursued the [development of a brand-new V-twin aviation engine](/portfolio/01-spiritengineering)
 
 {% include feature_row id="row2" %}
 
