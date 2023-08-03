@@ -3,7 +3,7 @@ title: "International Arctic Research Center"
 layout: single
 excerpt: "Research experience "
 header:
-   teaser: /assets/images/portfolio_iarclogo.jpg
+   teaser: /assets/images/portfolio_iarc_logo.jpg
    image: /assets/images/portfolio_iarc_glacier2.jpg
 sidebar:
   - title: "Role"
