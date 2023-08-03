@@ -19,9 +19,10 @@ sidebar:
     
 ---
 
-Spirit Engineering is a new aviation company developing novel LSA engines & airframes using top-down manufacturing approaches and carefully tuned production methods.
+Spirit Engineering is a new aviation company developing novel LSA engines & airframes using extensive in-house resources.
 
-I am not under NDA, but out of respect for my former employer, I will withhold sharing details of the project until it has been formally unveiled.  If you have professional or job-related inquiries, please [contact me](https://www.ross.thefischers.me/contact).
+I am not under NDA, but out of respect for my former employer, I withhold sharing project details until a formal unveiling.  
+If you have professional or job-related inquiries, please [contact me](https://www.ross.thefischers.me/contact).
 
 ## Test Cell Operation
 
@@ -31,25 +32,11 @@ Our prototype engine was equipped with a variety of high-speed sensors:
 - Pressure Transducers,
 - RTDs/Thermocouples
 - Dynamometer
-- Variable Frequency Drives, etc
+- Variable Frequency Drives, and more
   
 Signals were acquired via a National Instruments DAQ, and pre-processed through Combustion Analysis software
 
 <img src="/assets/images/portfolio_testcelloperation.jpg" alt="Test Cell Operation">
-
-## Test Engineering
-
-I often planned, conducted, and reported results of tests. A few tests I was involved with are:
-- Carburetor Tuning & Air/Fuel Ratio Optimizing
-- Enging Timing Optimizing
-- Altitude Performance 
-- Vibration Dampening Puck Performance 
-- Oil System Sizing
-- Tribology of Wear Components 
-- Airframe Rigidity
-  
-Many of these tests resulted in design changes for the sake of optimal performance or manufacturability.
-Many tests also required custom tooling and equipment to be developed. Altitude testing, for example, required the quick development of a PID-controlled/pressure-feedback roots blower in order to pressurize the inlet air to a given altitude.
 
 ## Data Specialist
 
@@ -59,6 +46,23 @@ I initally improved on the overall data pipeline by automating the uploading of 
 Notable, I developed a simple thermodynamic stability model in order to estimate the heat rejection ability of the engine heads.
 
 My team regularly met to discuss theoretical and fundamental problems, whereupon I verified or refuted our hypothesis by analyzing and visualizing the data.
+
+## Test Engineering
+
+I often planned, conducted, and reported results of tests. A few tests I was involved include:
+- Carburetor Tuning & Air/Fuel Ratio Optimizing
+- Enging Timing Optimizing
+- Altitude Performance 
+- Vibration Dampening Puck Performance 
+- Oil System Sizing
+- Tribology of Wear Components 
+- Airframe Rigidity
+  
+Many of these tests resulted in design changes for the sake of optimal performance or manufacturability.
+Many tests also required custom tooling and equipment to be developed. 
+
+Altitude testing, for example, required the quick development of a PID-controlled/pressure-feedback roots blower in order to pressurize the inlet air to a given altitude.
+
 
 ## Development Engineering
 
