@@ -279,7 +279,7 @@ collections:
   projects:
     output: true
     permalink: /:collection/:path/
-  courses:
+  coursework:
     output: true
     permalink: /:collection/:path/
   portfolio:
