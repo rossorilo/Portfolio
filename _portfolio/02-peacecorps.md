@@ -43,11 +43,11 @@ row3:
 
 Far from the comforts of home, serving in Peace Corps helped shape a well-rounded and informed worldview. I learned to recognize the power of collective efforts when implementing change. It also built personal resilience when placed in new and uncomfortable situations.
 
-# Project Management
+## Project Management
 
 Peace Corps members are provided the opportunity to collaborate with their host communities and write grants that will benefit them. Funded by USAID or other humanitarian organizations, these grants allow members and their communities to plan and implement sustainable and impactful projects.
 
-## Well Drilling
+### Well Drilling
 
 Funded by USAID, I wrote and implemented a grant to provide clean water on the school campus. The school no longer had to rely on student labor to provide water for lunch, cleaning, and washing clothes. With the help of school administrators and parents, we organized an in-kind community contribution of materials and labor.
 
@@ -55,7 +55,7 @@ See grant template here: [Link](https://drive.google.com/file/d/1h0CrHkQrbIzCY4G
 
 {% include feature_row id="row1" %}
 
-## Student Conferences
+### Student Conferences
 
 I wrote and planned a grant funding a student conference in Ndana town promoting science education. Select students engaged in hands-on experiments, critical thinking sessions, and competitions to promote a STEM skillset. I also brought students to other member's various conferences such as life skills, leadership, and another STEM conference.
 
@@ -63,7 +63,7 @@ See Concept Memo here: [Link](https://docs.google.com/document/d/1IQsoZs2zMcKvb3
 
 {% include feature_row id="row3" %}
 
-## Huru Project
+### Huru Project
 
 From [Huru International](https://www.huruinternational.org/):
 
@@ -75,6 +75,6 @@ Together, we distributed surveys, attended HURU trainings, shared menstrual and 
 
 {% include feature_row id="row2" %}
 
-# Science Education
+## Science Education
 
 For members in the education sector, we are placed at Secondary Schools across the country for two years. We organize a teaching schedule according to our skills and the school's needs. I taught the school's physics curriculum for 2 years (often in the Swahili Language) following the national syllabus to prepare them for standardized testing. During my tenure, I introduced a group of students to Junior and Senior level physics which had never been taught in the history of Namajani Day S.S..
