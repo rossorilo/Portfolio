@@ -16,6 +16,4 @@ excerpt: "Summaries of professional experiences."
 entries_layout: grid
 ---
 
-#Landing page for professional experiences.
-
-Create custom sidebar. TOC
+Browse my full-time positions.
