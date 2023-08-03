@@ -26,8 +26,11 @@ We used both project management and technical skills to organize literature revi
 
 ## Contribution
 My contribution focused on the construction of an accurate torsional vibration model, verified by  real-time observational data. 
+
 Our team successfully delivered a prediction of potential amplitude reduction if a 4th-order RPVA was utilized in the engine.
-The successful implementation of an RPVA requires careful and advanced engineering techniques. Alongside other business and sourcing difficulties, the client ultimately pursued the [development of a brand-new V-twin aviation engine](/portfolio/spiritengineering)
+
+
+Since, the successful implementation of an RPVA requires time- and cost-intensive implementation, the client ultimately pursued the [development of a brand-new V-twin aviation engine](/portfolio/spiritengineering)
 
 {% include feature_row id="row2" %}
 
