@@ -33,7 +33,7 @@ The successful implementation of an RPVA requires careful and advanced engineeri
 
 See course archive on [Google Drive](https://drive.google.com/drive/folders/0Bx-cli2KeHSBM0pfLVF6THNCTXc?resourcekey=0-EesGnlZRS474qXDJ77BMhw&usp=drive_link).
 
-## Read our [report](/assets/Design_Project_Report.pdf)
+## Read our [report](/assets/Design_Project_Report.pdf):
 
 
 <object data="/assets/Design_Project_Report.pdf" type="application/pdf" width="700px" height="1000px">
