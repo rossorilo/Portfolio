@@ -77,4 +77,4 @@ Together, we distributed surveys, attended HURU trainings, shared menstrual and 
 
 ## Science Education
 
-For members in the education sector, we are placed at Secondary Schools across the country for two years. We organize a teaching schedule according to our skills and the school's needs. I taught the school's physics curriculum for 2 years (often in the Swahili Language) following the national syllabus to prepare them for standardized testing. During my tenure, I introduced a group of students to Junior and Senior level physics which had never been taught in the history of Namajani Day S.S..
+Members in the education sector are placed at Secondary Schools across the country for two years. We organize teaching schedules according to the school's needs and our skills. I taught the school's physics curriculum for 2 years (often in the Swahili Language) following the national syllabus, and prepared students for standardized tests. During my tenure, I introduced a group of students to Junior and Senior level physics which had never been taught in the history of Namajani Day S.S..
