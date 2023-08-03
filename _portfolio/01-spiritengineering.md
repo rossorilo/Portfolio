@@ -19,10 +19,10 @@ sidebar:
     
 ---
 
-Spirit Engineering is a new aviation company developing novel LSA engines & airframes using extensive in-house resources.
-
-I am not under NDA, but out of respect for my former employer, I withhold sharing project details until a formal unveiling.  
+I am not under NDA, but out of respect for my former employer, I am withholding certain details until the company formally unveils its product.  
 If you have professional or job-related inquiries, please [contact me](https://www.ross.thefischers.me/contact).
+
+Spirit Engineering is a new aviation company developing novel LSA engines & airframes using extensive in-house resources.
 
 ## Test Cell Operation
 
@@ -41,7 +41,7 @@ Signals were acquired via a National Instruments DAQ, and pre-processed through 
 ## Data Specialist
 
 During test cell operation, I was responsible for taking short "snapshots" of engine operation.
-I initally improved on the overall data pipeline by automating the uploading of data files to our local server. I also developed a script using Python to automate the data conversion process, providing intelligble data files to be further analyzed. This automation reduced processing time by more than x5, allowing for more indepth tests to be conducted.
+I initially improved on the overall data pipeline by automating the uploading of data files to our local server. I also developed a script using Python to automate the data conversion process, providing intelligble data files to be further analyzed. This automation reduced processing time by more than x5, allowing for more in-depth tests to be conducted.
 
 Notable, I developed a simple thermodynamic stability model in order to estimate the heat rejection ability of the engine heads.
 
@@ -49,9 +49,9 @@ My team regularly met to discuss theoretical and fundamental problems, whereupon
 
 ## Test Engineering
 
-I often planned, conducted, and reported results of tests. A few tests I was involved include:
+I often planned, conducted, and reported the results of tests. A few tests I was involved in include:
 - Carburetor Tuning & Air/Fuel Ratio Optimizing
-- Enging Timing Optimizing
+- Engine Timing Optimizing
 - Altitude Performance 
 - Vibration Dampening Puck Performance 
 - Oil System Sizing
