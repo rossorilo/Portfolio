@@ -41,7 +41,7 @@ row3:
 
 ---
 
-Far from the comforts of home, serving in Peace Corps helped shape a well-rounded and informed worldview. I learned to recognize the power of collective efforts when implementing change. It also built personal resilience when placed in new and uncomfortable situations.
+Far from the comforts of home, serving in Peace Corps helped shape a well-rounded and informed worldview. I learned to recognize the power of collective efforts when implementing change. It also built personal resilience when placed in unfamiliar situations.
 
 ## Project Management
 
@@ -57,9 +57,15 @@ See grant template here: [Link](https://drive.google.com/file/d/1h0CrHkQrbIzCY4G
 
 ### Student Conferences
 
-I wrote and planned a grant funding a student conference in Ndana town promoting science education. Select students engaged in hands-on experiments, critical thinking sessions, and competitions to promote a STEM skillset. I also brought students to other member's various conferences such as life skills, leadership, and another STEM conference.
+I implemented a grant-funded student conference in Ndana town promoting science education. 
+Select students engaged in:
+- hands-on experiments,
+- critical thinking sessions,
+- STEM based competitions.
 
 See Concept Memo here: [Link](https://docs.google.com/document/d/1IQsoZs2zMcKvb3729ZY4PBUdpq8bNgOe/edit?usp=sharing&ouid=101522129468829840944&rtpof=true&sd=true)
+
+I also brought students to other member's various conferences: life skills, leadership, and another STEM conference.
 
 {% include feature_row id="row3" %}
 
@@ -71,10 +77,16 @@ From [Huru International](https://www.huruinternational.org/):
 
 I applied with the help of Madam Batuli, see the application here: [Link](https://docs.google.com/document/d/1sIj5cmGqJ5ndx5tQnPi7vkGtRnEfxDXX/edit?usp=sharing&ouid=101522129468829840944&rtpof=true&sd=true)
 
-Together, we distributed surveys, attended HURU trainings, shared menstrual and sex education with students, and organized transport and distribution of menstrual pad kits to every female student at Namajani Day Secondary School.
+Together, we:
+- distributed surveys,
+- attended HURU trainings,
+- shared menstrual and sex education with students,
+- organized transport and distribution of menstrual pad kits to every female student at Namajani Day Secondary School.
 
 {% include feature_row id="row2" %}
 
 ## Science Education
 
-Members in the education sector are placed at Secondary Schools across the country for two years. We organize teaching schedules according to the school's needs and our skills. I taught the school's physics curriculum for 2 years (often in the Swahili Language) following the national syllabus, and prepared students for standardized tests. During my tenure, I introduced a group of students to Junior and Senior level physics which had never been taught in the history of Namajani Day S.S..
+Members in the education sector are placed at Secondary Schools across the country for two years. We organize teaching schedules according to the school's needs and our skills. 
+
+I taught the school's physics curriculum for 2 years (often in the Swahili Language) following the national syllabus, and prepared students for standardized tests. During my tenure, I introduced a group of students to Junior and Senior level physics which had never been taught in the history of Namajani Day S.S..
