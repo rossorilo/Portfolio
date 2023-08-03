@@ -19,25 +19,25 @@ sidebar:
     
 row1:
   - image_path: assets/images/portfolio_pctz_well.jpg
-    excerpt: "Borehole Drillers Arrive on Campus"
+    excerpt: "Borehole Rig Arrives on Campus"
   - image_path: assets/images/portfolio_pctz_welldrill.jpg
     excerpt: "Drilling a 50-meter Deep Borehole"
   - image_path: assets/images/portfolio_pctz_pump.png
     excerpt: "Students Pumping Water on Campus"
 row2:
   - image_path: assets/images/portfolio_pctz_construction.jpg
-    excerpt: "Construction of New Classroom"
+    excerpt: "Construction of New Classroom (unrelated to Huru)"
   - image_path: assets/images/portfolio_pctz_huru.png
-    excerpt: "Organizing HURU Project for Women"
+    excerpt: "Organizing HURU Project"
   - image_path: assets/images/portfolio_pctz_huru2.jpg
     excerpt: "Distributing Menstrual Pad Kits"
 row3:
   - image_path: assets/images/portfolio_pctz_tour.png
-    excerpt: "Touring Local History on a Student Conference"
+    excerpt: "Student Conference Touring Local History"
   - image_path: assets/images/portfolio_pctz_conference.jpg
     excerpt: "Teaching Life Skills at a Student Conference"
   - image_path: assets/images/portfolio_pctz_tour2.jpg
-    excerpt: "Touring the Trade School on a Student Conference"
+    excerpt: "Student Conference Touring a Trade School"
 
 ---
 
@@ -53,7 +53,7 @@ Funded by USAID, I wrote and implemented a grant to provide clean water on the s
 
 See grant template here: [Link](https://drive.google.com/file/d/1h0CrHkQrbIzCY4GLJJV2nh-DOYJKQarl/view?usp=drive_link)
 
-{% include feature_row id="row1" type="center" %}
+{% include feature_row id="row1" %}
 
 ## Student Conferences
 
@@ -61,7 +61,7 @@ I wrote and planned a grant funding a student conference in Ndana town promoting
 
 See Concept Memo here: [Link](https://docs.google.com/document/d/1IQsoZs2zMcKvb3729ZY4PBUdpq8bNgOe/edit?usp=sharing&ouid=101522129468829840944&rtpof=true&sd=true)
 
-{% include feature_row id="row3" type="center" %}
+{% include feature_row id="row3" %}
 
 ## Huru Project
 
@@ -71,9 +71,9 @@ From [Huru International](https://www.huruinternational.org/):
 
 I applied with the help of Madam Batuli, see the application here: [Link](https://docs.google.com/document/d/1sIj5cmGqJ5ndx5tQnPi7vkGtRnEfxDXX/edit?usp=sharing&ouid=101522129468829840944&rtpof=true&sd=true)
 
-{% include feature_row id="row2" type="center" %}
-
 Together, we distributed surveys, attended HURU trainings, shared menstrual and sex education with students, and organized transport and distribution of menstrual pad kits to every female student at Namajani Day Secondary School.
+
+{% include feature_row id="row2" %}
 
 # Science Education
 
