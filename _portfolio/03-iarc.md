@@ -19,7 +19,7 @@ sidebar:
     
 row1:
   - image_path: assets/images/portfolio_iarc_locations.png
-  - excerpt: "Locations of Flux Towers Used"
+    excerpt: "Locations of Flux Towers Used"
   - image_path: assets/images/portfolio_iarc_fluxtower.jpg
     excerpt: "Bonanza Creek Flux Tower"
   - image_path: assets/images/portfolio_iarc_fluxtower_tundra.jpg
@@ -27,7 +27,7 @@ row1:
   - image_path: assets/images/portfolio_fluxtower_bonanza.png
     excerpt: "Poker Flats Flux Tower"
 row2:
-  - image_path: assets/images/portfolio_iarcimnavaitprecip.png
+  - image_path: assets/images/portfolio_iarc_imnavaitprecip.png
     excerpt: "Avg Precip at Tundra Sites"
   - image_path: assets/images/portfolio_iarc_avgpet.png
     excerpt: "Avg monthly P-ET at Flux Towers"
