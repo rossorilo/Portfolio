@@ -8,8 +8,8 @@ header:
 sidebar:
   - title: "Role"
     image: /assets/images/portfolio_pctz_role2.png
-    image_alt: "Teaching"
-    text: "Project Manager & Science Educator"
+    image_alt: "pctz headshot"
+    text: "1 year, 9 months<br> Project Manager & Science Educator"
   - title: "Responsibilities"
     text: "Community Integration<br>
     Grant Writing & Implementation<br>
