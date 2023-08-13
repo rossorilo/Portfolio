@@ -43,7 +43,7 @@ See course archive on [Google Drive](https://drive.google.com/drive/folders/0Bx-
 ## Read our [report](/assets/Design_Project_Report.pdf):
 
 
-<object data="/assets/Design_Project_Report.pdf" type="application/pdf" width="700px" height="1000px">
+<object data="/assets/Design_Project_Report.pdf" type="application/pdf" width="700px" height="800px">
     <embed src="/assets/Design_Project_Report.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it.</p>
     </embed>
