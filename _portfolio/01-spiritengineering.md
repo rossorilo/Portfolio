@@ -9,8 +9,8 @@ sidebar:
     image: /assets/images/portfolio_testcelloperation_sm.jpg
     image_alt: "Test Cell Operation"
     text: "R&D Engineer<br> Data Specialist
-  - title: Duration
-    text: 2 yrs
+  - title: "Duration"
+    text: "2 yrs"
   - title: "Responsibilities"
     text: "Data Specialist & Pipeline Management<br>
     Test Cell Operation<br>
@@ -21,9 +21,9 @@ sidebar:
 ---
 
 I am not under NDA, but out of respect for my former employer, I am withholding certain details until the company formally unveils its product.  
-If you have professional or job-related inquiries, please [contact me](https://www.ross.thefischers.me/contact).
+[Contact me](https://www.ross.thefischers.me/contact) with professional or job-related inquiries.
 
-Spirit Engineering is a new aviation company developing novel LSA engines & airframes using extensive in-house resources.
+Spirit Engineering is a new aerospace company developing novel and market-disrupting LSA aircraft and engines.
 
 ## Test Cell Operation
 
