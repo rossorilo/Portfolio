@@ -8,7 +8,9 @@ sidebar:
   - title: "Role"
     image: /assets/images/portfolio_testcelloperation_sm.jpg
     image_alt: "Test Cell Operation"
-    text: "R&D Engineer, Data Specialist"
+    text: "R&D Engineer<br> Data Specialist
+  - title: Duration
+    text: 2 yrs
   - title: "Responsibilities"
     text: "Data Specialist & Pipeline Management<br>
     Test Cell Operation<br>
@@ -16,7 +18,6 @@ sidebar:
     Engineering Drawing Review<br>
     Inspection & Quality Assurance<br>
     Vendor Communication"
-    
 ---
 
 I am not under NDA, but out of respect for my former employer, I am withholding certain details until the company formally unveils its product.  
@@ -47,7 +48,7 @@ Notable, I developed a simple thermodynamic stability model in order to estimate
 
 My team regularly met to discuss theoretical and fundamental problems, whereupon I verified or refuted our hypothesis by analyzing and visualizing the data.
 
-## Test Engineering
+## Testing
 
 I often planned, conducted, and reported the results of tests. A few tests I was involved in include:
 - Carburetor Tuning & Air/Fuel Ratio Optimizing
