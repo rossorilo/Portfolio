@@ -2,22 +2,13 @@
 title: "MCEN 4043 - System Dynamics"
 layout: single
 excerpt: "The design and modeling of dynamic systems using mathematical tools."
-header:
+author_profile: true
 teaser: /assets/images/mcen_4043_image.png
 ---
 
 ## Course Objectives 
 
-This class will allow students to define a system and a dynamic system.
-Students will be able to identify the input and output of a system, as
-well as the appropriate units used for mechanical, fluid, thermal, and
-electrical systems. The class will include developing and applying 
-modeling templates for mechanical, fluid, thermal, and electrical 
-systems. Mathematical tools such as the Laplace transforms for initial 
-conditions and forced transient problems, transfer functions, the 
-inverse Laplace transforms, and the Fourier series will be introduced 
-to analyze the transient response of dynamic systems. 
-
+This class will allow students to define a system and a dynamic system. Students will be able to identify the input and output of a system, as well as the appropriate units used for mechanical, fluid, thermal, and electrical systems. The class will include developing and applying modeling templates for these systems. Mathematical tools will be introduced to analyze the transient response of dynamic systems such as the Laplace transforms for initial conditions and forced transient problems, transfer functions, the inverse Laplace transforms, and the Fourier series.
 
 At the end of the class, students will be able to analyze harmonic 
 forcing and response of dynamic systems, analyze and design coupled 
