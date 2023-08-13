@@ -16,7 +16,7 @@ See course archive here: [Google Drive Link](https://drive.google.com/drive/fold
 
 
 ## [Syllabus](/assets/pdfs/MCEN_4228_Syllabus.pdf):
-<object data="/assets/pdfs/MCEN_4228_Syllabus.pdf" type="application/pdf" width="700px" height="800px">
+<object data="/assets/pdfs/MCEN_4228_Syllabus.pdf" type="application/pdf" width="700px" height="700px">
     <embed src="/assets/pdfs/MCEN_4228_Syllabus.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it.</p>
     </embed>
@@ -24,7 +24,7 @@ See course archive here: [Google Drive Link](https://drive.google.com/drive/fold
 
 
 ## [Homework Example, Week 9](/assets/pdfs/MCEN_4228_hw_9.pdf):
-<object data="/assets/pdfs/MCEN_4228_hw_9.pdf" type="application/pdf" width="700px" height="800px">
+<object data="/assets/pdfs/MCEN_4228_hw_9.pdf" type="application/pdf" width="700px" height="700px">
     <embed src="/assets/pdfs/MCEN_4228_hw_9.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it.</p>
     </embed>
@@ -32,7 +32,7 @@ See course archive here: [Google Drive Link](https://drive.google.com/drive/fold
 
 
 ## [Notes Example, Week 9](/assets/pdfs/MCEN_4228_slides_week9.pdf):
-<object data="/assets/pdfs/MCEN_4228_slides_week9.pdf" type="application/pdf" width="700px" height="1000px">
+<object data="/assets/pdfs/MCEN_4228_slides_week9.pdf" type="application/pdf" width="700px" height="400px">
     <embed src="/assets/pdfs/MCEN_4228_slides_week9.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it.</p>
     </embed>
