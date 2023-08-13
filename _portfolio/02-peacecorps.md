@@ -7,7 +7,7 @@ header:
    image: /assets/images/portfolio_pctz_header2.jpg
 sidebar:
   - title: "Role"
-    image: /assets/images/portfolio_pctz_role.jpg
+    image: /assets/images/portfolio_pctz_role2.png
     image_alt: "Teaching"
     text: "Project Manager & Science Educator"
   - title: "Responsibilities"
@@ -16,32 +16,43 @@ sidebar:
     Project Management<br>
     Science Education<br>
     Cohort Representative<br>"
-    
-row1:
-  - image_path: assets/images/portfolio_pctz_well.jpg
+
+gallery1:
+  - url: assets/images/portfolio_pctz_well.jpg
+    image_path: assets/images/portfolio_pctz_well.jpg
     excerpt: "Borehole Rig Arrives on Campus"
-  - image_path: assets/images/portfolio_pctz_welldrill.jpg
+  - url: assets/images/portfolio_pctz_welldrill.jpg
+    image_path: assets/images/portfolio_pctz_welldrill.jpg
     excerpt: "Drilling a 50-meter Deep Borehole"
-  - image_path: assets/images/portfolio_pctz_pump.png
+  - url: assets/images/portfolio_pctz_pump.png
+    image_path: assets/images/portfolio_pctz_pump.png
     excerpt: "Students Pumping Water on Campus"
-row2:
-  - image_path: assets/images/portfolio_pctz_construction.jpg
+gallery2:
+  - url: assets/images/portfolio_pctz_construction.jpg
+    image_path: assets/images/portfolio_pctz_construction.jpg
     excerpt: "Construction of New Classroom (unrelated to Huru)"
-  - image_path: assets/images/portfolio_pctz_huru.png
+  - url: assets/images/portfolio_pctz_huru.png
+    image_path: assets/images/portfolio_pctz_huru.png
     excerpt: "Organizing HURU Project"
-  - image_path: assets/images/portfolio_pctz_huru2.jpg
+  - url: assets/images/portfolio_pctz_huru2.jpg
+    image_path: assets/images/portfolio_pctz_huru2.jpg
     excerpt: "Distributing Menstrual Pad Kits"
-row3:
-  - image_path: assets/images/portfolio_pctz_tour.png
+gallery3:
+  - url: assets/images/portfolio_pctz_tour.png
+    image_path: assets/images/portfolio_pctz_tour.png
     excerpt: "Student Conference Touring Local History"
-  - image_path: assets/images/portfolio_pctz_conference.jpg
+  - url: assets/images/portfolio_pctz_conference.jpg
+    image_path: assets/images/portfolio_pctz_conference.jpg
     excerpt: "Teaching Life Skills at a Student Conference"
-  - image_path: assets/images/portfolio_pctz_tour2.jpg
+  - url: assets/images/portfolio_pctz_tour2.jpg
+    image_path: assets/images/portfolio_pctz_tour2.jpg
     excerpt: "Student Conference Touring a Trade School"
 
 ---
 
 Far from the comforts of home, serving in Peace Corps helped shape a well-rounded and informed worldview. I learned to recognize the power of collective efforts when implementing change. It also built personal resilience when placed in unfamiliar situations.
+
+<img src="/assets/images/portfolio_pctz_conference.jpg" alt= "Leading a life skills breakout session during a student conference.">
 
 ## Project Management
 
@@ -53,7 +64,7 @@ Funded by USAID, I wrote and implemented a grant to provide clean water on the s
 
 See grant template here: [Link](https://drive.google.com/file/d/1h0CrHkQrbIzCY4GLJJV2nh-DOYJKQarl/view?usp=drive_link)
 
-{% include feature_row id="row1" %}
+{% include gallery id="gallery1" %}
 
 ### Student Conferences
 
@@ -67,7 +78,7 @@ See Concept Memo here: [Link](https://docs.google.com/document/d/1IQsoZs2zMcKvb3
 
 I also brought students to other member's various conferences: life skills, leadership, and another STEM conference.
 
-{% include feature_row id="row3" %}
+{% include gallery id="gallery3" %}
 
 ### Huru Project
 
@@ -83,7 +94,7 @@ Together, we:
 - shared menstrual and sex education with students,
 - organized transport and distribution of menstrual pad kits to every female student at Namajani Day Secondary School.
 
-{% include feature_row id="row2" %}
+{% include gallery id="gallery2" %}
 
 ## Science Education
 
