@@ -9,6 +9,8 @@ sidebar:
     image: /assets/images/portfolio_testcelloperation_sm.jpg
     image_alt: "Test Cell Operation"
     text: "R&D Engineer<br> Data Specialist
+  - title: "Duration"
+    text: "2 yrs"
   - title: "Responsibilities"
     text: "Data Specialist & Pipeline Management<br>
     Test Cell Operation<br>
@@ -18,7 +20,7 @@ sidebar:
     Vendor Communication"
 ---
 
-I am not under NDA, but out of respect for my former employer, I am withholding certain details until the company formally unveils its product.  
+I am aware information is limited on this company and I would like to share more details, but out of respect for my colleagues and former employer, I cannot divulge too many details until the company formally unveils its product.  
 [Contact me](https://www.ross.thefischers.me/contact) with professional or job-related inquiries.
 
 Spirit Engineering is a new aerospace company developing novel and market-disrupting LSA aircraft and engines.
