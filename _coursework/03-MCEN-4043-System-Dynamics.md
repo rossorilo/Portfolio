@@ -23,7 +23,7 @@ See course archive here: [Google Drive Link](https://drive.google.com/drive/fold
 
 
 ## [Syllabus](/assets/pdfs/mcen_4043_Syllabus.pdf):
-<object data="/assets/pdfs/mcen_4043_Syllabus.pdf" type="application/pdf" width="700px" height="800px">
+<object data="/assets/pdfs/mcen_4043_Syllabus.pdf" type="application/pdf" width="700px" height="700px">
     <embed src="/assets/pdfs/mcen_4043_Syllabus.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it.</p>
     </embed>
@@ -31,7 +31,7 @@ See course archive here: [Google Drive Link](https://drive.google.com/drive/fold
 
 
 ## [Homework Example, Week 9](/assets/pdfs/mcen_4043_hw9.pdf):
-<object data="/assets/pdfs/mcen_4043_hw9.pdf" type="application/pdf" width="700px" height="800px">
+<object data="/assets/pdfs/mcen_4043_hw9.pdf" type="application/pdf" width="700px" height="700px">
     <embed src="/assets/pdfs/mcen_4043_hw9.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it.</p>
     </embed>
@@ -39,7 +39,7 @@ See course archive here: [Google Drive Link](https://drive.google.com/drive/fold
 
 
 ## [Lab Example, Week 9](/assets/pdfs/mcen_4043_lab9.pdf):
-<object data="/assets/pdfs/mcen_4043_lab9.pdf" type="application/pdf" width="700px" height="800px">
+<object data="/assets/pdfs/mcen_4043_lab9.pdf" type="application/pdf" width="700px" height="700px">
     <embed src="/assets/pdfs/mcen_4043_lab9.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it.</p>
     </embed>
