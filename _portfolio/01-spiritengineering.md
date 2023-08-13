@@ -3,7 +3,7 @@ title: "Spirit Engineering"
 layout: single
 excerpt: "An aviation startup developing novel LSA engines & airframes"
 header:
-   teaser: /assets/images/course_engine_crank.jpg
+teaser: /assets/images/course_engine_crank.jpg
 sidebar:
   - title: "Role"
     image: /assets/images/portfolio_testcelloperation_sm.jpg
