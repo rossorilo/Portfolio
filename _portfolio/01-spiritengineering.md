@@ -9,8 +9,6 @@ sidebar:
     image: /assets/images/portfolio_testcelloperation_sm.jpg
     image_alt: "Test Cell Operation"
     text: "R&D Engineer<br> Data Specialist
-  - title: "Duration"
-    text: "2 yrs"
   - title: "Responsibilities"
     text: "Data Specialist & Pipeline Management<br>
     Test Cell Operation<br>
