@@ -4,17 +4,17 @@ layout: single
 excerpt: "A two-semester comprehensive capstone design experience carried out by a team of three."
 teaser: /assets/images/course_engine_crank.jpg
 gallery1:
-    - url: assets/images/course_rpva.png
+  - url: assets/images/course_rpva.png
     image_path: assets/images/course_rpva.png
     title: "Rotating Pendulum Vibration Absorbers"
-    - url: assets/images/course_design_methods.png
+  - url: assets/images/course_design_methods.png
     image_path: assets/images/course_design_methods.png
     title: "Simulation Workflow"
 gallery2:
-    - url: assets/images/course_design_inertias.png
+  - url: assets/images/course_design_inertias.png
     image_path: assets/images/course_design_inertias.png
     title: "Torsional Vibration Model"
-    - url: assets/images/course_design_output.png
+  - url: assets/images/course_design_output.png
     image_path: assets/images/course_design_output.png
     title: "Simulation and Observed Data"
 ---
