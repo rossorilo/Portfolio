@@ -1,7 +1,7 @@
 ---
 title: MCEN 3030 - Computational Methods
 layout: single
-excerpt: "The design and modeling of dynamic systems using mathematical tools."
+excerpt: "Study of numerical techniques for engineering problems, with MATLAB."
 author_profile: true
 teaser: /assets/images/mcen_3030_plot.png
 ---
