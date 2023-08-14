@@ -32,6 +32,3 @@ See course archive here: [Google Drive Link](https://drive.google.com/drive/fold
         <p>This browser does not support PDFs. Please download the PDF to view it.</p>
     </embed>
 </object>
-
-
-https://drive.google.com/drive/folders/0Bx-cli2KeHSBb3F6MXpMSUJoX3M?resourcekey=0-IKLPd7PGT1ZtGVdnrei6Tg&usp=drive_link
