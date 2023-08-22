@@ -3,7 +3,8 @@ title: "MCEN 4043 - System Dynamics"
 layout: single
 excerpt: "The design and modeling of dynamic systems using mathematical tools."
 author_profile: true
-teaser: /assets/images/mcen_4043_image.png
+header:
+    teaser: /assets/images/mcen_4043_image.png
 ---
 
 ## Course Objectives 
