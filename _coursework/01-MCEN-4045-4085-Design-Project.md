@@ -2,7 +2,8 @@
 title: "MCEN 4045 & MCEN 4085<br> Design Project I & II"
 layout: single
 excerpt: "A two-semester comprehensive capstone design experience carried out by a team of three."
-teaser: /assets/images/course_engine_crank.jpg
+header:
+    teaser: /assets/images/course_engine_crank.jpg
 author_profile: true
 gallery1:
   - url: assets/images/course_rpva.png
