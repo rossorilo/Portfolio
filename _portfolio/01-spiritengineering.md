@@ -18,10 +18,11 @@ sidebar:
     Vendor Communication"
 ---
 
-I am aware information is limited on this company and I would like to share more details, but out of respect for my colleagues and former employer, I cannot divulge too many details until the company formally unveils its product.  
-[Contact me](https://www.ross.thefischers.me/contact) with professional or job-related inquiries.
+Spirit Engineering is an aviation startup developing novel and market-disrupting LSA aircraft and engines.
 
-Spirit Engineering is a new aerospace company developing novel and market-disrupting LSA aircraft and engines.
+Information on this company is limited because their product has not been formally unveiled.
+If you wish to know more about the company or have professional inquiries, please [contact me](https://www.ross.thefischers.me/contact).
+
 
 ## Test Cell Operation
 
@@ -33,18 +34,20 @@ Our prototype engine was equipped with a variety of high-speed sensors:
 - Dynamometer
 - Variable Frequency Drives, and more
   
-Signals were acquired via a National Instruments DAQ, and pre-processed through Combustion Analysis software
+I acquired signals via a National Instruments DAQ which were pre-processed through Combustion Analysis software.
+I took snapshots of engine operation with our test-cell data system and managed the subsequent data pipeline.
 
 <img src="/assets/images/portfolio_testcelloperation.jpg" alt="Test Cell Operation">
 
-## Data Specialist
+## Data & Coding Specialist
 
-During test cell operation, I was responsible for taking short "snapshots" of engine operation.
-I initially improved on the overall data pipeline by automating the uploading of data files to our local server. I also developed a script using Python to automate the data conversion process, providing intelligble data files to be further analyzed. This automation reduced processing time by more than x5, allowing for more in-depth tests to be conducted.
+I improved the function of the data pipeline by streamlining the test cell/server/client operation. 
 
-Notable, I developed a simple thermodynamic stability model in order to estimate the heat rejection ability of the engine heads.
+I developed a terminal program using Python to automate the data conversion process, outputting data files in multiple formats to be further analyzed. This automation reduced processing time by more than x5, allowing more capacity for in-depth testing.
 
-My team regularly met to discuss theoretical and fundamental problems, whereupon I verified or refuted our hypothesis by analyzing and visualizing the data.
+I developed a simple thermodynamic stability model with Python in order to estimate the heat rejection ability of the engine heads.
+
+My team regularly met to discuss theoretical and fundamental problems, where I verified or refuted hypotheses by analyzing and visualizing our data.
 
 ## Testing
 
@@ -66,11 +69,12 @@ Altitude testing, for example, required the quick development of a PID-controlle
 ## Development Engineering
 
 At Spirit, I held a wide range of other responsibilities including but not limited to:
+- Inventory and purchasing software improvement
+- Writing internal and customer-facing technical documentation
 - Quality assurance and measurement of new and old parts, using in-house inspection tools and methods
 - Engineering drawing preparation & review, in accordance with ASME Y14.5
 - CAD use (Creo Parametric and Fusion 360) to modify 3d models and construct assemblies
-- Basic work with finite element analysis, 
+- Finite element analysis
 - Drawing workflow and configuration engineering
-- Development Inventory control document creation 
-- Component preliminary and critical design reviews
+- Conducting preliminary and critical design reviews
 - Vendor communication (both technical and sourcing)
