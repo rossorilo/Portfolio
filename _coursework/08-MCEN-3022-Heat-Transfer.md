@@ -4,7 +4,7 @@ layout: single
 excerpt: "Study of heat transfer processes and equipment"
 author_profile: true
 header:
-    teaser: /assets/images/mcen_3047_image.png
+    teaser: /assets/images/mcen_3022_image.png
 ---
 
 ## Course Objectives 
