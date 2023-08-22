@@ -3,7 +3,8 @@ title: MCEN 3030 - Computational Methods
 layout: single
 excerpt: "Study of numerical techniques for engineering problems, with MATLAB."
 author_profile: true
-teaser: /assets/images/mcen_3030_plot.png
+header:
+    teaser: /assets/images/mcen_3030_plot.png
 ---
 
 ## Course Objectives 
