@@ -17,28 +17,38 @@ sidebar:
     Arctic Climate Literature Review<br>
     Paper Authorship & Poster Presentation<br>"
     
-row1:
-  - image_path: assets/images/portfolio_iarc_locations.png
+gallery1:
+  - url: assets/images/portfolio_iarc_locations.png
+    image_path: assets/images/portfolio_iarc_locations.png
     excerpt: "Locations of Flux Towers Used"
-  - image_path: assets/images/portfolio_iarc_fluxtower.jpg
+  - url: assets/images/portfolio_iarc_fluxtower.jpg
+    image_path: assets/images/portfolio_iarc_fluxtower.jpg
     excerpt: "Bonanza Creek Flux Tower"
-  - image_path: assets/images/portfolio_iarc_fluxtower_tundra.jpg
+  - url: assets/images/portfolio_iarc_fluxtower_tundra.jpg
+    image_path: assets/images/portfolio_iarc_fluxtower_tundra.jpg
     excerpt: "Tundra Flux Tower, near Toolik Field Station"
-  - image_path: assets/images/portfolio_fluxtower_bonanza.png
+  - url: assets/images/portfolio_fluxtower_bonanza.png
+    image_path: assets/images/portfolio_fluxtower_bonanza.png
     excerpt: "Poker Flats Flux Tower"
-row2:
-  - image_path: assets/images/portfolio_iarc_imnavaitprecip.png
+gallery2:
+  - url: assets/images/portfolio_iarc_imnavaitprecip.png
+    image_path: assets/images/portfolio_iarc_imnavaitprecip.png
     excerpt: "Avg Precip at Tundra Sites"
-  - image_path: assets/images/portfolio_iarc_avgpet.png
+  - url: assets/images/portfolio_iarc_avgpet.png
+    image_path: assets/images/portfolio_iarc_avgpet.png
     excerpt: "Avg monthly P-ET at Flux Towers"
-  - image_path: assets/images/portfolio_iarc_etmmday.jpg
+  - url: assets/images/portfolio_iarc_etmmday.jpg
+    image_path: assets/images/portfolio_iarc_etmmday.jpg
     excerpt: "Daily ET at Flux Towers"
-row3:
-  - image_path: assets/images/portfolio_iarc_correlpoker.png
+gallery3:
+  - url: assets/images/portfolio_iarc_correlpoker.png
+    image_path: assets/images/portfolio_iarc_correlpoker.png
     excerpt: "Leading/Lagging Driver Correlations at Poker Flats"
-  - image_path: assets/images/portfolio_iarc_model.png
+  - url: assets/images/portfolio_iarc_model.png
+    image_path: assets/images/portfolio_iarc_model.png
     excerpt: "Climate Model Resolution and Extent"
-  - image_path: assets/images/portfolio_iarc_correlimnavait.png
+  - url: assets/images/portfolio_iarc_correlimnavait.png
+    image_path: assets/images/portfolio_iarc_correlimnavait.png
     excerpt: "Leading/Lagging Driver Correlations at Imnavait"
 
 ---
@@ -49,6 +59,16 @@ Dr. John Walsh and his colleagues provided background knowledge and datasets use
 
 > What drives surface moisture variations in the Arctic and, ultimately, the trend towards a wetter or drier Arctic landscape? 
 
+
+## Data Analysis and Model Validation
+
+I used Python and MATLAB to write a repository of statistical analysis for on both in-situ and climate model output data. 
+
+I showed that the primary drivers of ET were air temperature and relative humidity, and IARC's climate model showed similar results. By comparing correlations of the drivers of in-situ data with those from the model, I revealed that the model's hydrologic cycle was over-simulated, leading to excessive precipitation and evapotranspiration.
+
+The bias at some locations was a factor of two or more, pointing to serious deficiencies in the model formulation. 
+
+{% include feature_row id="row3" %}
 
 
 ## Climate Data Processing
@@ -66,20 +86,6 @@ The data included various channels:
 - Wind speed
 
 {% include feature_row id="row2" %}
-
-
-## Data Analysis and Model Validation
-
-I used Python to perform  statistical analysis on both in-situ and climate model output data. 
-
-I showed the primary drivers of ET were air temperature and relative humidity. 
-
-
-By comparing the correlations of the drivers of in-situ data with those from the model, I revealed that the model's hydrologic cycle was over-simulated, leading to excessive precipitation and evapotranspiration.
-
-The bias at some locations was a factor of two or more, pointing to serious deficiencies in the model formulation. 
-
-{% include feature_row id="row3" %}
 
 
 ## Paper Authorship and Poster Presentation
