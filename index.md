@@ -8,7 +8,7 @@ header:
   overlay_image: /assets/images/Mountains_royalty_free_matthew_montrone.jpg
 
 excerpt: |-
-  • Website under construction!
+  • Website under construction!<br>
   • [Website Repo](https://github.com/rossorilo/rossorilo.github.io)<br>
   • Mechanical Engineer & Data Specialist.<br>
   • Recent R&D Engineer advancing development of novel aviation engine.<br>
