@@ -1,7 +1,7 @@
 ---
 layout: single
 permalink: /contact/
-title: "Resume & Contact"
+title: "CV & Contact"
 excerpt: "Page Updated 7/28/2023"
 author_profile: true
 ---
@@ -10,7 +10,7 @@ author_profile: true
 
 {% include contact-form.html %}
 
-## Resume updated 7/28/2023.  [(View Resume)](/assets/CV_Ross_Fischer.pdf)
+## CV updated 8/25/2023.  [(View CV)](/assets/CV_Ross_Fischer.pdf)
 <object data="/assets/CV_Ross_Fischer.pdf" type="application/pdf" width="700px" height="1000px">
     <embed src="/assets/CV_Ross_Fischer.pdf">
         <p>This browser does not support PDFs. Please download the PDF to view it.</p>
