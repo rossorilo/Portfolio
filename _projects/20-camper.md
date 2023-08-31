@@ -4,7 +4,6 @@ layout: single
 excerpt: "Personal Project - Complete Design & Fabrication of Camper"
 header:
    teaser: /assets/camper/camper_teaser.jpg
-   header:
    overlay_image: /assets/camper_skin1.jpg
    overlay_color: "#000"
    overlay_filter: "0.5"
