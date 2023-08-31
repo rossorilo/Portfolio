@@ -9,7 +9,7 @@ header:
    overlay_filter: "0.5"
 
 toc: true
-toc_label: "Project Table of Contents
+toc_label: "Project Table of Contents"
 
 gallery1:
   - url: assets/camper/camper_before.jpg
