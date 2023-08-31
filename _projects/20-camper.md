@@ -1,5 +1,5 @@
 ---
-title: "Personal Project - Camper Design & Fabrication"
+title: "Camper Design & Fabrication"
 layout: single
 excerpt: "Personal Project - Complete Design & Fabrication of Camper"
 header:
