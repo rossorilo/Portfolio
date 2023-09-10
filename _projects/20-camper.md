@@ -110,16 +110,6 @@ gallery8:
   - url: assets/camper/camper_slideout4.jpg
     image_path: assets/camper/camper_slideout4.jpg
     excerpt: "Not pictured: A very difficult process of ensuring I could actually mount the structure onto the slides and camper-frame"
-gallery9:
-  - url: assets/camper/camper_.jpg
-    image_path: assets/camper/camper_.jpg
-    excerpt: ""
-  - url: assets/camper/camper_.jpg
-    image_path: assets/camper/camper_.jpg
-    excerpt: ""
-  - url: assets/camper/camper_.jpg
-    image_path: assets/camper/camper_.jpg
-    excerpt: ""
 ---
 
 #The Camper Project
