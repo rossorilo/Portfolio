@@ -15,6 +15,7 @@ Interpolates velocity at given times.
 
 <details>
   <summary><i>(Expand)</i> Read Me</summary>
+   
      ```
         Ross Fischer
         LLAtoECEF Project
@@ -45,10 +46,13 @@ Interpolates velocity at given times.
         - docs.python.org, numpy.org, w3schools.com
         - github & stackoverflow communities
      ```
+     
 </details>
 
+
 <details>
-  <summary><i>(Expand)</i> Code</summary>
+   <summary><i>(Expand)</i> Code</summary>
+   
       ```
          import os
          import sys
@@ -271,4 +275,5 @@ Interpolates velocity at given times.
              gui = Gui()
              gui.root.mainloop()
       ```
+      
 </details>
