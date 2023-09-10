@@ -54,7 +54,7 @@ gallery4:
     excerpt: "Locating the first frame member onto the trailer"
   - url: assets/camper/camper_frame2.jpg
     image_path: assets/camper/camper_frame2.jpg
-    excerpt: "More members and 'studs' going up!"
+    excerpt: "More members and studs going up!"
   - url: assets/camper/camper_tigweld.jpg
     image_path: assets/camper/camper_tigweld.jpg
     excerpt: "Tig weld porn, pretty good for an amateur on a windy day!"
