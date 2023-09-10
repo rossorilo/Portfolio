@@ -8,9 +8,6 @@ header:
    overlay_color: "#000"
    overlay_filter: "0.5"
 
-toc: true
-toc_label: "Project Table of Contents"
-
 gallery1:
   - url: assets/camper/camper_before.jpg
     image_path: assets/camper/camper_before.jpg
@@ -57,7 +54,7 @@ gallery4:
     excerpt: "Locating the first frame member onto the trailer"
   - url: assets/camper/camper_frame2.jpg
     image_path: assets/camper/camper_frame2.jpg
-    excerpt: "More members and "studs" going up!"
+    excerpt: "More members and 'studs' going up!"
   - url: assets/camper/camper_tigweld.jpg
     image_path: assets/camper/camper_tigweld.jpg
     excerpt: "Tig weld porn, pretty good for an amateur on a windy day!"
