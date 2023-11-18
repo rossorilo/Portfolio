@@ -8,21 +8,29 @@ sidebar:
   - title: "Role"
     image: /assets/images/portfolio_testcelloperation_sm.jpg
     image_alt: "Test Cell Operation"
-    text: "2 yrs<br> R&D Engineer<br> Data Specialist"
+    text: "~2 years<br> R&D Engineer<br> Data Specialist"
   - title: "Responsibilities"
-    text: "Data Specialist & Pipeline Management<br>
+    text: "Data Analysis & Pipeline Management<br>
+    Software and Script Development <br>
+    Requirements Definitions<br>
     Test Cell Operation<br>
-    Test Engineering Parts & Systems<br>
-    Engineering Drawing Review<br>
-    Inspection & Quality Assurance<br>
     Vendor Communication"
 ---
 
 Spirit Engineering is an aviation startup developing novel and market-disrupting LSA aircraft and engines.
 
-Information on this company is limited because their product has not been formally unveiled.
+The company's product has not been formally unveiled.
 If you wish to know more about the company or have professional inquiries, please [contact me](https://www.ross.thefischers.me/contact).
 
+## Data Specialist & Software Development
+
+I improved the function of the data pipeline by streamlining the test cell/server/client operation. 
+
+I developed a terminal program using Python to automate the data conversion process, outputting data files in multiple formats to be further analyzed. This automation reduced processing time by more than x5, allowing more capacity for in-depth testing.
+
+I developed simple vibration and thermal models with Python in order to guide testing efforts.
+
+My team regularly met to discuss theoretical and fundamental problems, where I verified or refuted hypotheses by analyzing and visualizing our data.
 
 ## Test Cell Operation
 
@@ -34,20 +42,11 @@ Our prototype engine was equipped with a variety of high-speed sensors:
 - Dynamometer
 - Variable Frequency Drives, and more
   
-I acquired signals via a National Instruments DAQ which were pre-processed through Combustion Analysis software.
+I acquired signals via a National Instruments DAQ which were pre-processed through Analysis software.
 I took snapshots of engine operation with our test-cell data system and managed the subsequent data pipeline.
 
 <img src="/assets/images/portfolio_testcelloperation.jpg" alt="Test Cell Operation">
 
-## Data & Coding Specialist
-
-I improved the function of the data pipeline by streamlining the test cell/server/client operation. 
-
-I developed a terminal program using Python to automate the data conversion process, outputting data files in multiple formats to be further analyzed. This automation reduced processing time by more than x5, allowing more capacity for in-depth testing.
-
-I developed a simple thermodynamic stability model with Python in order to estimate the heat rejection ability of the engine heads.
-
-My team regularly met to discuss theoretical and fundamental problems, where I verified or refuted hypotheses by analyzing and visualizing our data.
 
 ## Testing
 
@@ -66,7 +65,7 @@ Many tests also required custom tooling and equipment to be developed.
 Altitude testing, for example, required the quick development of a PID-controlled/pressure-feedback roots blower in order to pressurize the inlet air to a given altitude.
 
 
-## Development Engineering
+## Additional Engineering Contributions
 
 At Spirit, I held a wide range of other responsibilities including but not limited to:
 - Inventory and purchasing software improvement
