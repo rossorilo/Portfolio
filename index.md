@@ -8,11 +8,10 @@ header:
   overlay_image: /assets/images/Mountains_royalty_free_matthew_montrone.jpg
 
 excerpt: |-
-  • Website under construction!<br>
-  • [Website Repo](https://github.com/rossorilo/rossorilo.github.io)<br>
-  • Mechanical Engineer & Data Specialist.<br>
-  • Recent R&D Engineer advancing development of novel aviation engine.<br>
-  • RPCV from Peace Corps Tanzania. Fluent in Swahili.
+  • Website under construction [Website Repository](https://github.com/rossorilo/rossorilo.github.io)<br>
+  • Currently looking to contribute to and grow with a new team<br>
+  • Pursuing Remote Sensing focused Master's Degree in evening<br>
+  • Multidisciplinary Background in Data Analysis and Mechanical Engineering <br>
   
 feature_row:
   - title: "Professional Experiences"
