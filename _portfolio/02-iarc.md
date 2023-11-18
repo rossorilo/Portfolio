@@ -62,11 +62,11 @@ Dr. John Walsh and his colleagues provided background knowledge and datasets use
 
 ## Data Analysis and Model Validation
 
-I used Python and MATLAB to write a repository of statistical analysis for on both in-situ and climate model output data. 
+I used Python and MATLAB to write a repository of scripts to analyze both in-situ and climate model output data. 
 
-I showed that the primary drivers of ET were air temperature and relative humidity, and IARC's climate model showed similar results. By comparing correlations of the drivers of in-situ data with those from the model, I revealed that the model's hydrologic cycle was over-simulated, leading to excessive precipitation and evapotranspiration.
+I investigated the primary drivers of ET and compared them with and IARC's regional climate model. By comparing time-leading and lagging correlations of the drivers of in-situ data with those from the model, I revealed that the model's hydrologic cycle was over-simulated, leading to excessive precipitation and evapotranspiration.
 
-The bias at some locations was a factor of two or more, pointing to serious deficiencies in the model formulation. 
+The bias at some locations was a factor of two or more, pointing to deficiencies in the model formulation. 
 
 {% include feature_row id="row3" %}
 
