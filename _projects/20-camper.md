@@ -115,7 +115,7 @@ gallery8:
 
 ## The Beginning
 After COVID19 evacuated me from the Peace Corps, I spent the following season working a covid friendly job and supporting trails in my hometown.
-At the same time, my family was getting rid of our old pop-up camper, which I promptly snatched up. Can't get rid of it that easily! (cue hoarding tendencies)
+At the same time, my family was getting rid of our old pop-up camper, which I bought and started renovating.
 
 Before pictures:
 {% include gallery id="gallery1" %}

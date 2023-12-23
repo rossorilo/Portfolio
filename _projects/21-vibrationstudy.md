@@ -1,7 +1,7 @@
 ---
 title: "MCEN 4045 & MCEN 4085<br> Design Project I & II"
 layout: single
-excerpt: "A two-semester comprehensive capstone design experience carried out by a team of three."
+excerpt: "Using Fourier analysis and vibration modeling to estimate vibration amplitudes and reduction feasibility"
 header:
     teaser: /assets/images/course_engine_crank.jpg
 author_profile: true
@@ -30,7 +30,7 @@ We used both project management and technical skills to organize literature revi
 
 
 ## Contribution
-My contribution focused on the construction of an accurate torsional vibration model, verified by  real-time observational data. 
+My contribution focused on the construction of an accurate torsional vibration model, verified by  real-time observational data. I utilized fourier analysis to extract information from in-situ data and compare vibration amplitudes with 
 
 {% include gallery id="gallery2" layout="half" caption="Torsional Vibration Model and Results Compared to Observation" %}
 
