@@ -3,8 +3,7 @@ title: "GUI Coordinate Converter"
 layout: single
 excerpt: "Python project to convert .csv from LLA --> ECEF"
 header:
-   teaser: /assets/images/portfolio_pctz_logo.jpg
-   image: /assets/images/portfolio_pctz_header2.jpg
+   teaser: /assets/images/project_LLA_logo.png
 
 ---
 
