@@ -7,7 +7,7 @@ header:
     teaser: /assets/images/asen_5044_image.png
 ---
 
-IN PROGRESS
+## See Course Project [here](https://www.ross.thefischers.me/projects18-kalmanfilters):
 
 ## Course Objectives
 
@@ -20,8 +20,6 @@ This course introduces students to the theory and methods of state estimation fo
         <p>This browser does not support PDFs. Please download the PDF to view it.</p>
     </embed>
 </object>
-
-## [Team Project](https://www.ross.thefischers.me/projects18-kalmanfilters):
 
 ## [Syllabus](/assets/pdfs/ASEN_5044_syllabus.pdf):
 
