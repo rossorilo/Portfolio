@@ -4,7 +4,7 @@ layout: single
 excerpt: "Undergraduate course investigating approaches to modeling properties of 3D printed plastics"
 author_profile: true
 header:
-    teaser: /assets/images/project_indresearch_spec
+    teaser: /assets/images/project_indresearch_spec.png
 ---
 
 ## [Paper](/assets/pdfs/project_indresearch.pdf):
