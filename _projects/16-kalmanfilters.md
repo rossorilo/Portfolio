@@ -7,7 +7,10 @@ header:
 
 ---
 
+## [Instructions](/assets/pdfs/project_KF_Instructions.pdf):
+
 This was a team project where we were tasked with analyzing the performance of the proposed autonomous-navigation system and ultimately determine whether it is suitable for the company’s mission to Bennu. We did so using numerical simulations of (i) the spacecraft orbital motion about the asteroid, (ii) landmark-based line-of-sight measurements, and (iii) the navigation filter itself.
+
 
 <img src="/assets/images/project_KF_validate.png" alt= "Visualization Tool for Checking Landmark Visibility.">
 
