@@ -26,6 +26,7 @@ author_profile: true
 | Cert: SQL Essential Training (LinkedIn)               | Apr, 2023 | [View](https://drive.google.com/file/d/15LqEmV9uV0N6gBASMcIoafuzN2-kebXO/view?usp=sharing) |
 | Description of Service: Peace Corps                   | Mar, 2020 | [View](https://drive.google.com/file/d/11ZaPUrnf7VN79G4dkq5_TDpeymEEPY3-/view?usp=sharing) |
 | Writing Ex.: USAID Grant for hand-pump installation   | Feb, 2019 | [View](https://drive.google.com/file/d/1h0CrHkQrbIzCY4GLJJV2nh-DOYJKQarl/view?usp=sharing) |
+| Cert: NCEES Fundamentals of Engineering Exam          | Apr, 2018 | [View]()                                                                                   |
 | Diploma: B.S. in Mech. Engineering (Uni. of Colorado) | May, 2018 | [View](https://drive.google.com/file/d/1oBv4kTNlm8Fmbb_z-_oYpcUKwIrj2gZd/view?usp=sharing) |
 | Undergrad Class Rank (#7 / 270)                       | May 2018  | [View](https://drive.google.com/file/d/1M5HiTErOdiITr--mBs71T6IqBnbnfRpm/view?usp=sharing) |
 | Undergrad Transcripts: CU Boulder & CMU               | May, 2018 | [View](https://drive.google.com/file/d/1LupGH6OphaqLxqiRr65Nd5BwfJFHbbCY/view?usp=sharing) |

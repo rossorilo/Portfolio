@@ -1,278 +1,142 @@
 ---
-title: "GUI Coordinate Converter"
+title: "Weather Radar Plotter"
 layout: single
-excerpt: "Python project to convert .csv from LLA --> ECEF"
+excerpt: "Python project to pull and plot NEXRAD Level 2 Radar Data"
 header:
-   teaser: /assets/images/project_LLA_logo.png
+   teaser: /assets/images/project_radarlogo.png
 
 ---
 
-Coding project that converts .csv of LLA coordinates to ECEF coordinates.
-Interpolates velocity at given times.
+Coding project that prompts the user through selection of NEXRAD Level 2 Weather Radar Data and plots the data in PPI format for a given elevation angle.
 
-<img src="/assets/images/project_llaecef.png" alt= "Program Screenshot">
+<img title="" src="assets/images/project_radarplot.png" alt="Program Screenshot">
 
-<details>
-  <summary><i>(Expand)</i> Read Me</summary>
-   
-     ```
-        Ross Fischer
-        LLAtoECEF Project
-        2023/07
-        Virtualenv, Python 3.11
-        
-        - To Run:
-            - With terminal: python LLAtoECEF.py
-            - Within IDE, run script
-        - .csv to be clean and without nans
-        
-        Purpose & Reqs:
-        - Convert LLA coordinates to ECEf coordinates
-        - Ability to interpolate velocity vectors at entered/given times. (start w/: t = 1532334000 and 1532335268)
-        
-        Assumptions:
-        - LLA data is provided as csv, csv is acceptable as output.
-        - Desired output data: time, x, y, z, velocity vector, velocity magnitude
-        - Interpolate then print velocity vector to sys.stdout for given times
-        
-        Libraries:
-        - os, sys, tkinter
-        - numpy 1.25
-        - pandas 2.03
-        
-        Resources:
-        - "Datum Transformations of GPS Positions", by u-blox ag (www.u-blox.ch), July 5th, 1999
-        - docs.python.org, numpy.org, w3schools.com
-        - github & stackoverflow communities
-     ```
-     
-</details>
-
-
-<details>
-   <summary><i>(Expand)</i> Code</summary>
-   
       ```
-         import os
-         import sys
-         import tkinter as tk
-         from tkinter import filedialog
-         import numpy as np
-         import pandas as pd
-         
-         class Gui:
-         
-             def __init__(self):
-                 self.ecefpath = None  # initialize instance variables to avoid Unresolved Attribute Reference
-                 self.lla = None
-                 self.lladf = pd.DataFrame()
-                 self.ecefdf = pd.DataFrame()
-         
-                 self.root = tk.Tk()  # setup GUI interface/buttons/labels/etc
-                 self.root.geometry("1000x500")
-                 self.root.title("LLA to ECEF")
-         
-                 self.description = tk.Label(self.root,
-                                             text="Convert LLA coordinates to ECEF coordinates \n by Ross Fischer, July 2023",
-                                             font=('Arial', 14))
-                 self.description.pack(padx=20, pady=10)
-                 self.llaformat = tk.Label(self.root, font=('Arial', 8),
-                                           text="LLA .csv must have the following columns: \n [Seconds since Unix Epoch]"
-                                                "    [WGS84 Latitude (Degrees)]"
-                                                "    [WGS84 Longitude (Degrees)]"
-                                                "    [WGS84 Altitude (km)]")
-                 self.llaformat.pack(padx=5)
-         
-                 self.frame1 = tk.Frame(self.root)  # setup frame for import/export grid
-                 self.frame1.columnconfigure(0, weight=1)
-                 self.frame1.columnconfigure(1, weight=1)
-                 self.frame1.columnconfigure(2, weight=3)
-                 self.frame1.pack(pady=20, ipadx=15)
-         
-                 self.lbllla = tk.Label(self.frame1, text="Select LLA .csv", font=('Arial', 10))
-                 self.lbllla.grid(column=0, row=0, sticky=tk.W)
-                 self.lblecef = tk.Label(self.frame1, text="Select Output Path", font=('Arial', 10))
-                 self.lblecef.grid(column=0, row=1, sticky=tk.W)
-         
-                 self.defaultpathtext = "Select File or Path"
-                 self.lblllapath = tk.Label(self.frame1, text=self.defaultpathtext, font=('Arial', 10))
-                 self.lblllapath.grid(column=2, row=0)
-                 self.lblecefpath = tk.Label(self.frame1, text=self.defaultpathtext, font=('Arial', 10))
-                 self.lblecefpath.grid(column=2, row=1)
-         
-                 self.btnlla = tk.Button(self.frame1, text="Browse", font=('Arial', 10), command=lambda: self.llabutton())
-                 self.btnlla.grid(column=1, row=0)
-                 self.btnecef = tk.Button(self.frame1, text="Browse", font=('Arial', 10), command=lambda: self.ecefbutton())
-                 self.btnecef.grid(column=1, row=1)
-         
-                 self.btnconvert = tk.Button(self.root, text="Convert to ECEF \n (Overwrite Previous File)", font=('Arial', 14),
-                                             command=lambda: self.convertbutton())
-                 self.btnconvert.pack(pady=10)
-         
-                 self.llaformat = tk.Label(self.root, font=('Arial', 8),
-                                           text="ECEF .csv output columns:  \n [Time (s)]"
-                                                "    [X (m)]"
-                                                "    [Y (m)]"
-                                                "    [Z (m)]"
-                                                "    [X Vel (m/s)]"
-                                                "    [Y Vel (m/s)]"
-                                                "    [Z Vel (m/s)]"
-                                                "    [Velocity (m/s)]")
-                 self.llaformat.pack(padx=5, pady=10)
-         
-                 # setup frame for interpretation grid
-                 self.frame2 = tk.Frame(self.root)
-                 self.frame2.columnconfigure(0, weight=1)
-                 self.frame2.columnconfigure(1, weight=1)
-                 self.frame2.columnconfigure(2, weight=1)
-                 self.frame2.columnconfigure(3, weight=1)
-                 self.frame2.pack(pady=25, ipadx=15)
-         
-                 # initialize Instance variables
-                 self.interptime1 = 1532334000
-                 self.interptime2 = 1532335268
-                 self.interpvel1 = None
-                 self.interpvel1x = None
-                 self.interpvel1y = None
-                 self.interpvel1z = None
-                 self.interpvel2 = None
-                 self.interpvel2x = None
-                 self.interpvel2y = None
-                 self.interpvel2z = None
-         
-                 # labels, entrys, and button for interpolation
-                 # Row 0
-                 self.lbltime = tk.Label(self.frame2, text="Start and End Time:", font=('Arial', 10))
-                 self.lbltime.grid(column=0, row=0, sticky=tk.W)
-                 self.lbltimestart = tk.Label(self.frame2, text="t_start: (must first convert)", font=('Arial', 10))
-                 self.lbltimestart.grid(column=1, row=0)
-                 self.lbltimeend = tk.Label(self.frame2, text="t_end: (must first convert)", font=('Arial', 10))
-                 self.lbltimeend.grid(column=2, row=0)
-                 # row 1
-                 self.lblinterp1 = tk.Label(self.frame2, text="Unix Time #1:", font=('Arial', 10))
-                 self.lblinterp1.grid(column=0, row=1, sticky=tk.W)
-                 self.txtinterp1 = tk.Entry(self.frame2, width=15, font=('Arial', 10))
-                 self.txtinterp1.insert(tk.INSERT, str(self.interptime1))
-                 self.txtinterp1.grid(column=1, row=1)
-                 self.lblinterpvel1 = tk.Label(self.frame2, text="(must first convert)", font=('Arial', 10))
-                 self.lblinterpvel1.grid(column=3, row=1)
-                 # row 2
-                 self.lblinterp2 = tk.Label(self.frame2, text="Unix Time #2:", font=('Arial', 10))
-                 self.lblinterp2.grid(column=0, row=2, sticky=tk.W)
-                 self.txtinterp2 = tk.Entry(self.frame2, width=15, font=('Arial', 10))
-                 self.txtinterp2.insert(tk.INSERT, str(self.interptime2))
-                 self.txtinterp2.grid(column=1, row=2)
-                 self.lblinterpvel2 = tk.Label(self.frame2, text="(must first convert)", font=('Arial', 10))
-                 self.lblinterpvel2.grid(column=3, row=2)
-                 # button
-                 self.btninterp = tk.Button(self.frame2, text="Interpolate \n Velocity", font=('Arial', 10),
-                                            command=lambda: self.interpbutton())
-                 self.btninterp.grid(column=2, row=1, rowspan=2)
-         
-             def llabutton(self):  # button function to choose LLA .csv
-                 self.lla = filedialog.askopenfile(mode='r', filetypes=[('CSV Files', '*.csv')])
-                 if self.lla:
-                     self.lblllapath = tk.Label(self.frame1, text=str(os.path.abspath(self.lla.name)), font=('Arial', 10))
-                     self.lblllapath.grid(column=2, row=0)
-         
-             def ecefbutton(self):  # button function to choose ECEF output location
-                 self.ecefpath = filedialog.askdirectory() + '/Converted_ecef.csv'
-                 self.ecefpath = self.ecefpath.replace("/", chr(92))
-                 if self.ecefpath:
-                     self.lblecefpath.config(text=str(self.ecefpath), font=('Arial', 10))
-         
-             def convertbutton(self):  # button function to convert LLA to ECEF
-                 if self.lla and self.ecefpath:
-                     self.lladf = pd.read_csv(os.path.abspath(self.lla.name), header=None)  # read LLA .csv into df
-                     self.lladf.columns = ['time', 'lat', 'lon', 'alt']  # assign column names
-         
-                     rada = float(6378137)  # semi-major axis (meters)
-                     f = 1 / 298.257223563  # ellipsoid flattening factor
-                     radb = rada * (1 - f)  # semi-minor axis (meters)
-                     ecc = np.sqrt((rada ** 2 - radb ** 2) / (rada ** 2))  # first eccentricity
-                     # ecc2 = np.sqrt((rada**2 - radb**2)/(radb**2))  # second eccentricity. Unused
-                     n = rada / (np.sqrt(1 - (ecc ** 2 * np.sin(np.radians(self.lladf['lat'])) ** 2)))  # radius of curve (m)
-         
-                     ecefx = np.array((n + self.lladf['alt'] * 1000) * np.cos(np.radians(self.lladf['lat'])) *
-                                      np.cos(np.radians(self.lladf['lon'])))  # x-coord
-                     ecefy = np.array((n + self.lladf['alt'] * 1000) * np.cos(np.radians(self.lladf['lat'])) *
-                                      np.sin(np.radians(self.lladf['lon'])))  # y-coord
-                     ecefz = np.array(((n * (radb ** 2) / (rada ** 2)) + self.lladf['alt'] * 1000) *
-                                      np.sin(np.radians(self.lladf['lat'])))  # z-coord
-         
-                     timediff = np.concatenate((np.array([0]), np.diff(self.lladf['time'])))
-                     ecefxdiff = np.concatenate((np.array([0]), np.diff(ecefx)))  # variable differences for vel calc
-                     ecefydiff = np.concatenate((np.array([0]), np.diff(ecefy)))
-                     ecefzdiff = np.concatenate((np.array([0]), np.diff(ecefz)))
-                     ecefposdiff = np.array(np.sqrt(ecefxdiff ** 2 + ecefydiff ** 2 + ecefzdiff ** 2))
-                     ecefxvel = np.concatenate(((np.array([0])), np.array(ecefxdiff[1:] / timediff[1:])))
-                     ecefyvel = np.concatenate(((np.array([0])), np.array(ecefydiff[1:] / timediff[1:])))
-                     ecefzvel = np.concatenate(((np.array([0])), np.array(ecefzdiff[1:] / timediff[1:])))
-                     ecefvel = np.concatenate(((np.array([0])), np.array(ecefposdiff[1:] / timediff[1:])))
-         
-                     self.ecefdf = pd.DataFrame({'time': self.lladf['time'],
-                                                 'x': ecefx,
-                                                 'y': ecefy,
-                                                 'z': ecefz,
-                                                 'xvel': ecefxvel,
-                                                 'yvel': ecefyvel,
-                                                 'zvel': ecefzvel,
-                                                 'vel': ecefvel})  # construct Dataframe
-                     self.ecefdf.to_csv(self.ecefpath, index=False, header=False)
-         
-                     self.lbltimestart.config(text="t_start: " + str(self.lladf['time'].iat[0]))  # find start and end time
-                     self.lbltimeend.config(text="t_end: " + str(self.lladf['time'].iat[-1]))
-                     self.interpbutton()
-         
-                     popup = tk.Tk()  # pop-up confirming conversion
-                     popup.geometry("200x100")
-                     popup.wm_title("Complete")
-                     popuptxt = tk.Label(popup, text="Converted. Check output folder.")
-                     popuptxt.pack(side='top', pady=10)
-                     btnpopup = tk.Button(popup, text="Okay", command=popup.destroy)
-                     btnpopup.pack(pady=5)
-         
-             def interpbutton(self):  # button function to interpolate velocity at entered times in GUI
-                 if not self.ecefdf.empty:
-                     self.interptime1 = float(self.txtinterp1.get())
-                     self.interptime2 = float(self.txtinterp2.get())
-                     if self.interptime1 < self.lladf['time'].iat[0] or self.interptime1 > self.lladf['time'].iat[-1]:
-                         self.lblinterpvel1.config(text="Entered Time Out of Range")
-                         sys.stdout.write("Entered Time Out of Range")
-                     else:
-                         self.interpvel1 = np.interp(self.interptime1, self.ecefdf['time'], self.ecefdf['vel'])
-                         self.interpvel1x = np.interp(self.interptime1, self.ecefdf['time'], self.ecefdf['xvel'])
-                         self.interpvel1y = np.interp(self.interptime1, self.ecefdf['time'], self.ecefdf['yvel'])
-                         self.interpvel1z = np.interp(self.interptime1, self.ecefdf['time'], self.ecefdf['zvel'])
-                         self.lblinterpvel1.config(text=str(round(self.interpvel1, 2)) + ' (m/s)    [x,y,z]=[' +
-                                                   str(round(self.interpvel1x, 2)) + ', ' + str(round(self.interpvel1y, 2))
-                                                   + ', ' + str(round(self.interpvel1z, 2)) + ']')
-                         sys.stdout.write("At t=" + self.txtinterp1.get() + " (s), velocity=" +
-                                          self.lblinterpvel1.cget("text") + '\n')
-                     if self.interptime2 < self.lladf['time'].iat[0] or self.interptime2 > self.lladf['time'].iat[-1]:
-                         self.lblinterpvel2.config(text="Entered Time Out of Range")
-                         sys.stdout.write("Entered Time Out of Range")
-                     else:
-                         self.interpvel2 = np.interp(self.interptime2, self.ecefdf['time'], self.ecefdf['vel'])
-                         self.interpvel2x = np.interp(self.interptime2, self.ecefdf['time'], self.ecefdf['xvel'])
-                         self.interpvel2y = np.interp(self.interptime2, self.ecefdf['time'], self.ecefdf['yvel'])
-                         self.interpvel2z = np.interp(self.interptime2, self.ecefdf['time'], self.ecefdf['zvel'])
-                         self.lblinterpvel2.config(text=str(round(self.interpvel2, 2)) + ' (m/s)    [x,y,z]=[' +
-                                                   str(round(self.interpvel2x, 2)) + ', ' + str(round(self.interpvel2y, 2))
-                                                   + ', ' + str(round(self.interpvel2z, 2)) + ']')
-                         sys.stdout.write("At t=" + self.txtinterp2.get() + " (s), velocity=" +
-                                          self.lblinterpvel2.cget("text") + '\n\n')
-         
-         
-         if __name__ == "__main__":
-             # comment block in case class arguments are desired
-             # parser = argparse.ArgumentParser()
-             # args = parser.parse_args()
-             # gui = Gui(args)
-             # gui.root.mainloop()
-         
-             gui = Gui()
-             gui.root.mainloop()
+    # Process as follows:
+    # - Research Py-ART documentation to see functionality. Research NEXRAD data source and learn that data can be accessed
+    #       through AWS and BOTO3 package.
+    # - Outline pseudocode for modularity
+    #       - Ask user for date
+    #       - Ask user for the hour - this will be used to filter available data files
+    #       - Ask user for radar station code
+    #       - Use boto3 to access Nexrad AWS Bucket, and see which times are available for the given date, hour, and station
+    #       - List available times and ask for time selection
+    #       - Read radar data for given time, then check for available elevation angles. Ask user to select one.
+    #       - Plot reflectivity (PPI) for given time and elevation angle
+    
+    # Results: As shown in the imgur link below, the reflectivity was verified against the NEXRAD data. The plot shows radar
+    # reflectivity measured in dBZ, providing an indication of possible precip intensity and type - noting that other factors like
+    # buildings, birds, insects, or atmospheric phenomena can cause higher reflectivity values.
+    
+    # To verify I was plotting the data correctly, I downloaded the NOAA Weather and Climate Toolkit, imported the same data file,
+    # and plotted reflectivity for the same elevation angle ( https://i.imgur.com/SAmZ3vY.png )
+    # Note that I only verified this worked for specific test cases around a specific date.
+    # I saw files with different suffixes ("V06" vs "V06_MDM"). This script is only good for file names such as (xxxxYYYYMMDD_HHMMSS_V06)
+    
+    # Import packages
+    import pyart
+    import matplotlib.pyplot as plt
+    from datetime import datetime
+    import os
+    import boto3
+    from botocore import UNSIGNED
+    from botocore.config import Config
+    
+    
+    def nexrad_times_angles(date, hour, radar_station):
+        """
+        Lists available times for NEXRAD level 2 data on AWS for a given date and radar station.
+    
+        Parameters:
+        date (str): Date in 'YYYY-MM-DD' format.
+        radar_station (str): Radar station code, e.g., 'KFTG'.
+    
+        Returns:
+        list: A list of available times (in UTC) for the specified date and radar station.
+        """
+        # Format the path to look in the correct S3 bucket and directory
+        s3_path = f'{date.replace("-", "/")}/{radar_station}/KFTG{date.replace("-","")}_{hour}'
+    
+        # Create a boto3 S3 client
+        s3_client = boto3.client('s3', config=Config(signature_version=UNSIGNED))
+    
+        # Retrieve the list of files for the specified date and radar station
+        response = s3_client.list_objects_v2(Bucket='noaa-nexrad-level2', Prefix=s3_path)
+        files = [obj['Key'] for obj in response.get('Contents', [])]
+    
+        # Extract the times from the file names
+        times = []
+        for file in files:
+            # Extract the timestamp from the file name
+            basename = os.path.basename(file)
+            timestamp_str = basename[4:19]
+            # timestamp_str = basename.split('_')[1]
+            timestamp = datetime.strptime(timestamp_str, '%Y%m%d_%H%M%S')
+            times.append(timestamp)
+    
+        return times
+    
+    
+    def plot_nexrad_reflectivity(radar, elevation_angle):
+        """
+        Plots the reflectivity for a fixed elevation angle (PPI) from a NEXRAD level 2 data file.
+    
+        Parameters:
+        file_path (str): Path to the NEXRAD level 2 data file.
+        elevation_angle (float): The fixed elevation angle in degrees for which to plot the PPI.
+        """
+    
+        # Finding the nearest elevation angle in the radar file to the desired angle
+        elevations = radar.fixed_angle['data']
+        closest_elevation_idx = (abs(elevations - elevation_angle)).argmin()
+    
+        # Create a plot
+        display = pyart.graph.RadarDisplay(radar)
+        fig = plt.figure(figsize=(10, 10))
+        ax = fig.add_subplot(111)
+    
+        # Plotting the reflectivity for the closest elevation angle
+        display.plot_ppi('reflectivity', closest_elevation_idx)
+        display.set_aspect_ratio(aspect_ratio=1 ,ax=None)
+        plt.show()
+    
+    
+    # Asking the user for input
+    date_input = input("Enter the date (YYYY-MM-DD): ")
+    hour_input = input("Enter an hour (00 to 23): ")
+    radar_site_input = input("Enter the radar site code (e.g., 'KFTG'): ")
+    
+    # Getting the list of available times
+    times = nexrad_times_angles(date_input, hour_input, radar_site_input)
+    print("Available times:")
+    for i, time in enumerate(times):
+        print(f"{i}: {time.strftime('%Y-%m-%d %H:%M:%S')}")
+    
+    # Asking the user to choose a time by numerical value
+    time_index = int(input("Enter the number corresponding to the time you want to use: "))
+    chosen_time = times[time_index]
+    
+    # Constructing the file path for the chosen time
+    file_name = f'{radar_site_input}{chosen_time.strftime("%Y%m%d_%H%M%S_V06")}'
+    file_path = f's3://noaa-nexrad-level2/{date_input.replace("-", "/")}/{radar_site_input}/{file_name}'
+    
+    # Read the radar data
+    radar_data = pyart.io.read_nexrad_archive(file_path)
+    
+    # Get available elevation angles
+    elevation_angles = radar_data.fixed_angle['data'].tolist()
+    
+    print("Available elevation angles:")
+    for i, angle in enumerate(elevation_angles):
+        print(f"{i}: {angle:.2f} degrees")
+    
+    # Asking the user to choose an elevation angle
+    elevation_index = int(input("Enter the number corresponding to the elevation angle you want to use: "))
+    chosen_elevation_angle = elevation_angles[elevation_index]
+    
+    # Plotting the reflectivity
+    plot_nexrad_reflectivity(radar_data, chosen_elevation_angle)
+    
       ```
-      
+
 </details>
