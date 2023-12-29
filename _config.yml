@@ -105,10 +105,10 @@ analytics:
 # Site Author
 author:
   name             : "Ross Fischer "
-  avatar           : "/assets/images/headshot.png"
+  avatar           : "/assets/images/headshot.jpg"
   bio              : |-
+    • M.S. Aerospace Engineering (current) <br>
     • B.S. Mechanical Engineering<br>
-    • Data Specialist<br>
     • Dreaming of Space<br>
 # location         : "Colorado"
   links:
