@@ -8,11 +8,11 @@ header:
   overlay_image: /assets/images/Mountains_royalty_free_matthew_montrone.jpg
 
 excerpt: |-
-  • Website under construction [Website Repository](https://github.com/rossorilo/rossorilo.github.io)<br>
-  • Currently looking to contribute to and grow with a new team<br>
-  • Pursuing Remote Sensing focused Master's Degree in evening<br>
+  • Website under construction - [Website Repository](https://github.com/rossorilo/rossorilo.github.io)<br>
+  • Mechanical Engineer looking to develop career in Systems Engineering<br>
+  • Pursuing Master's Degree in Aerospace Engineering<br>
   • Multidisciplinary Background in Data Analysis and Mechanical Engineering <br>
-  
+
 feature_row:
   - title: "Professional Experiences"
     image_path: /assets/images/portfolio_iarc_poster4x3.jpg
@@ -38,4 +38,3 @@ feature_row:
 ---
 
 {% include feature_row %}
-
